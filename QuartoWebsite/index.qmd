@@ -2,7 +2,7 @@
 title: "Madeline Eppley"
 about:
   template: trestles
-  image: https://github.com/madeline-eppley/MadelineEppley/blob/main/QuartoWebsite/profilepic.jpeg
+  image: ![]()
   links:
     - icon: twitter
       text: Twitter
