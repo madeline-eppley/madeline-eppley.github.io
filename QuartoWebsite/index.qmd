@@ -2,13 +2,13 @@
 title: "Hi, I'm Madeline. Welcome to my website!"
 ---
 
-# About Me
-
 ------------------------------------------------------------------------
+# About Me
+I am a third-year PhD Student in the Lotterhos Lab at Northeastern University's Marine Science Center. 
 
-Check out the [Lotterhos Lab Website](https://sites.google.com/site/katielotterhos/home) for more information about my lab and our research.
+Check out the [Lotterhos Lab Website](https://sites.google.com/site/katielotterhos/home) for more information about my lab and our research!
 
 ------------------------------------------------------------------------
 
 _I made this website with Quarto. 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>._
+Learn more about Quarto websites here: <https://quarto.org/docs/websites>._
