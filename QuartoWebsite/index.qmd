@@ -5,10 +5,10 @@ about:
   image: https://github.com/madeline-eppley/MadelineEppley/blob/main/QuartoWebsite/profilepic.jpeg
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com/MadelineGEppley
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/madeline-eppley
 ---
 
@@ -27,5 +27,4 @@ Check out the [Lotterhos Lab Website](https://sites.google.com/site/katielotterh
 
 ------------------------------------------------------------------------
 
-_I made this website with Quarto. 
-Learn more about Quarto websites here: <https://quarto.org/docs/websites>._
+_I made this website with [Quarto](https://quarto.org/docs/websites)_
