@@ -2,7 +2,7 @@
 title: "Madeline Eppley"
 about:
   template: trestles
-  image: ![](/img/profilepic.jpg)
+  image: /img/profilepic.jpg
   links:
     - icon: twitter
       text: twitter
