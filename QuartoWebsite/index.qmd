@@ -1,10 +1,27 @@
 ---
-title: "Hi, I'm Madeline. Welcome to my website!"
+title: "Madeline Eppley"
+about:
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/MadelineGEppley
+    - icon: github
+      text: Github
+      href: https://github.com/madeline-eppley
 ---
 
+Madeline Eppley is a PhD Student at Northeastern University in Marine and Environmental Science.
+
+## Education
+
+Northeastern University Marine Science Center | Boston, MA
+PhD in Marine and Environmental Science | Sept 2021 - Current
+
+Bard College at Simon's Rock | Great Barrington, MA
+B.A in Biology, magna cum laude | Sept 2016 - May 2020
 ------------------------------------------------------------------------
-# About Me
-I am a third-year PhD Student in the Lotterhos Lab at Northeastern University's Marine Science Center. 
 
 Check out the [Lotterhos Lab Website](https://sites.google.com/site/katielotterhos/home) for more information about my lab and our research!
 
