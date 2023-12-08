@@ -9,6 +9,12 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    contents:
+      - section: "About Me"
+        contents:
+          - about_me.qmd
+      - section: "Research"
+          - phd_work.qmd
 
 format:
   html:
