@@ -14,6 +14,7 @@ website:
         contents:
           - about_me.qmd
       - section: "Research"
+        contents:
           - phd_work.qmd
 
 format:
