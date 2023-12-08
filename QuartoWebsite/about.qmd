@@ -1,9 +1,6 @@
 ---
-title: "About"
+title: "Hi, welcome to my site"
 ---
 
 About this site
-
-```{r}
-1 + 1
-```
+This site was made using Quarto
