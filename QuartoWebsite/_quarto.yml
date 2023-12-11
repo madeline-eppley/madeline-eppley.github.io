@@ -14,6 +14,9 @@ website:
         href: https://twitter.com/MadelineGEppley
       - icon: linkedin
         href: https://www.linkedin.com/in/madeline-eppley/
+      - icon: mortarboard-fill
+        href: https://cos.northeastern.edu/people/madeline-eppley/
+        
     left:
       - href: index.qmd
         text: Home
