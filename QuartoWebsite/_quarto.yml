@@ -5,8 +5,8 @@ project:
 
 website:
   title: "Madeline Eppley"
-  favicon: img/crablogo.jpeg
   navbar:
+    logo: img/crablogo.jpeg
     right: 
       - icon: github
         href: https://github.com/madeline-eppley
@@ -28,6 +28,7 @@ website:
   page-footer: 
     left: "Copyright 2023, Madeline Eppley"
     right: "Made with Quarto"
+    border: true
 
 format:
   html:
