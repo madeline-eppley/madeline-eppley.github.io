@@ -31,7 +31,7 @@ website:
 
 format:
   html:
-    theme: solar
+    theme: sandstone
     mainfont: 'Tahoma'
     css: styles.css
     toc: true
