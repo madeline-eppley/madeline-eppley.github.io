@@ -7,7 +7,7 @@ website:
   site-url: "https://madeline-eppley.github.io/"
   title: "Madeline Eppley"
   navbar:
-    logo: 
+    logo: img/crablogo.jpg
     right: 
       - icon: github
         href: https://github.com/madeline-eppley
