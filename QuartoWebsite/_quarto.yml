@@ -31,7 +31,7 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: superhero
     mainfont: 'Tahoma'
     css: styles.css
     toc: true
