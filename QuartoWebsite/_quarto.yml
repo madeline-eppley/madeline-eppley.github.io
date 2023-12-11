@@ -4,23 +4,37 @@ project:
   resources: "/img"
 
 website:
+  site-url: "https://madeline-eppley.github.io/"
   title: "Madeline Eppley"
   navbar:
+    logo: 
+    right: 
+      - icon: github
+        href: https://github.com/madeline-eppley
+      - icon: twitter
+        href: https://twitter.com/MadelineGEppley
+      - icon: linkedin
+        href: https://www.linkedin.com/in/madeline-eppley/
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-    contents:
-      - section: "About Me"
-        contents:
-          - about_me.qmd
-      - section: "Research"
-        contents:
-          - phd_work.qmd
+      - href: about_me.qmd
+        text: About Me
+      - href: phd_work.qmd
+        text: My Work
+      - href: gallery.qmd
+        text: Gallery
+      - href: resume.qmd
+        text: Resume
+  page-footer: 
+    background: $dark-teal
+    left: "Copyright 2023, Madeline Eppley"
+    right: "Made with Quarto"
 
 format:
   html:
     theme: solar
+    mainfont: 'Montserrat'
     css: styles.css
     toc: true
     page-layout: full
