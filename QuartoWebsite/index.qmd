@@ -10,8 +10,8 @@ about:
         href: https://twitter.com/MadelineGEppley
       - icon: linkedin
         href: https://www.linkedin.com/in/madeline-eppley/
-      - icon: envelope-fill
-        href: eppley.m@northeastern.edu
+      - icon: mortarboard-fill
+        href: https://cos.northeastern.edu/people/madeline-eppley/
 ---
 
 Hi! I'm Madeline, a PhD Student at Northeastern University in Marine and Environmental Science in the Lotterhos Lab. 
