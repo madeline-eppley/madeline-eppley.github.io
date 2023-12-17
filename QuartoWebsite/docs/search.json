@@ -7,6 +7,13 @@
     "text": "About Me, coming soon!"
   },
   {
+    "objectID": "about_me.html#education",
+    "href": "about_me.html#education",
+    "title": "Madeline Eppley",
+    "section": "Education",
+    "text": "Education\nNortheastern University Marine Science Center | Boston, MA PhD in Marine and Environmental Science | Sept 2021 - Current\nBard College at Simon’s Rock | Great Barrington, MA B.A in Biology | Sept 2016 - May 2020"
+  },
+  {
     "objectID": "phd_work.html",
     "href": "phd_work.html",
     "title": "Madeline Eppley",
@@ -25,14 +32,7 @@
     "href": "index.html",
     "title": "Madeline Eppley",
     "section": "",
-    "text": "Madeline Eppley is a PhD Student at Northeastern University in Marine and Environmental Science."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Madeline Eppley",
-    "section": "Education",
-    "text": "Education\nNortheastern University Marine Science Center | Boston, MA PhD in Marine and Environmental Science | Sept 2021 - Current\nBard College at Simon’s Rock | Great Barrington, MA B.A in Biology | Sept 2016 - May 2020 ————————————————————————\nCheck out the Lotterhos Lab Website for more information about my lab and our research!\n\nI made this website with Quarto."
+    "text": "Hi! I’m Madeline, a PhD Student at Northeastern University in Marine and Environmental Science in the Lotterhos Lab.\nFor my PhD, I am integrating population genomics approaches, mined environmental data, disease records, and historic museum DNA to reveal evolution of wild eastern oyster populations over space and time.\nI have keen interests in population-level evolution, museomics and natural history, disease and host-parasite interactions, and enviornmental change in marine ecosystems. My ultimate goal is to use ’omics approaches to contribute to scientific understanding and informed conservation of marine environments for the future.\n\nCheck out the Lotterhos Lab Website for more information about my lab and our research!\n\nI made this website with Quarto."
   },
   {
     "objectID": "gallery.html",
@@ -40,12 +40,5 @@
     "title": "Madeline Eppley",
     "section": "",
     "text": "Gallery - coming soon!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Research",
-    "section": "",
-    "text": "Undergrad Senior Thesis: Coming Soon!\nPhD Work: Coming Soon!\nCV: Coming Soon!"
   }
 ]
