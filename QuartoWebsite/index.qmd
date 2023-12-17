@@ -27,9 +27,11 @@ I have keen interests in seascape genomics, museomics and natural history, disea
 :::
 
 --------------------------------------------------------------------------------------------
+
 ::: column-page-inset
 Check out the [Lotterhos Lab Website](https://sites.google.com/site/katielotterhos/home) for more information about my lab and our research!
 :::
+
 --------------------------------------------------------------------------------------------
 ::: column-page-inset
 _I made this website with [Quarto](https://quarto.org/docs/websites)._
