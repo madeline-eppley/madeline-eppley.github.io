@@ -22,7 +22,7 @@ For my PhD, I am integrating population genomics approaches, mined environmental
 I have keen interests in seascape genomics, museomics and natural history, disease and host-parasite interactions, and enviornmental change in marine ecosystems. My ultimate goal is to use 'omics approaches to contribute to scientific understanding and informed conservation of marine environments for the future.
 :::
 
-::: column-page
+::: column-body-outset-right
 ![](img/nahantbanner.jpeg)
 :::
 
