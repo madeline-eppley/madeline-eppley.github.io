@@ -37,11 +37,19 @@ description="Sea stars I collected near Kosterhavets National Park for the Ocean
 
 ![Gulf of Maine](img/maineboat.jpeg){width=400}
 
-![Shoals Marine Lab](img/shoalssunset.JPG){width=400}
-
 :::
 
-## Travel
+
+![Shoals Marine Lab](img/shoalssunset.JPG){width=400}
+
+## Travel and Outdoors
+::: {layout="[[1, 1]]"}
+
+![New Hampshire White Mountains](img/groupcamping.jpeg){width=400}
+
+![Great Smoky Mountains National Park](img/smokies.jpeg){width=400}
+
+:::
 
 
 ## Undergrad
