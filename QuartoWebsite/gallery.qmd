@@ -8,7 +8,7 @@ lightbox: auto
 
 ::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
 
-![](https://source.unsplash.com/jlzxJuSINsw){group="my-gallery"}
+![](img/nhboat.jpeg){group="my-gallery"}
 
 ![](https://source.unsplash.com/a-brown-dog-laying-on-top-of-a-white-bed-90ub4oBH1WU){group="my-gallery"}
 
