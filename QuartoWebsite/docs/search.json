@@ -39,13 +39,34 @@
     "href": "gallery.html",
     "title": "Gallery",
     "section": "",
-    "text": "{group=“research”, width = 300}\n\n\n{group=“research”, width = 300}\n\n\n\n\n{group=“research”, width = 300}\n\n\n\n::: {layout=“[[1, 1], [1]]”}\n{group=“research”, width = 300}\n{group=“research”, width = 300}\n{group=“research”, width = 300}\n\n\n\n{group=“research”, width = 300}\n\n\n{group=“research”, width = 300}\n\n\n\n\n{group=“research”, width = 300}"
+    "text": "Virginia Institute of Marine Science\n\n\n\n\n\nNortheastern Marine Science Center\n\n\n\n\n\n\n\nNorth Carolina Oyster Reef\n\n\n\n\n::: {layout=“[[1, 1], [1]]”}\n\n\n\nNatural History Museum of New Mexico\n\n\n\n\n\nHistoric Preserved Oysters\n\n\n\n\n\nTjarno Marine Lab\n\n\n\n\n\n\n\nNew Hampshire Oyster Reef\n\n\n\n\n\nGulf of Maine\n\n\n\n\n\n\n\nShoals Marine Lab"
   },
   {
-    "objectID": "gallery.html#my-research",
-    "href": "gallery.html#my-research",
+    "objectID": "gallery.html#phd-research",
+    "href": "gallery.html#phd-research",
     "title": "Gallery",
     "section": "",
-    "text": "{group=“research”, width = 300}\n\n\n{group=“research”, width = 300}\n\n\n\n\n{group=“research”, width = 300}\n\n\n\n::: {layout=“[[1, 1], [1]]”}\n{group=“research”, width = 300}\n{group=“research”, width = 300}\n{group=“research”, width = 300}\n\n\n\n{group=“research”, width = 300}\n\n\n{group=“research”, width = 300}\n\n\n\n\n{group=“research”, width = 300}"
+    "text": "Virginia Institute of Marine Science\n\n\n\n\n\nNortheastern Marine Science Center\n\n\n\n\n\n\n\nNorth Carolina Oyster Reef\n\n\n\n\n::: {layout=“[[1, 1], [1]]”}\n\n\n\nNatural History Museum of New Mexico\n\n\n\n\n\nHistoric Preserved Oysters\n\n\n\n\n\nTjarno Marine Lab\n\n\n\n\n\n\n\nNew Hampshire Oyster Reef\n\n\n\n\n\nGulf of Maine\n\n\n\n\n\n\n\nShoals Marine Lab"
+  },
+  {
+    "objectID": "gallery.html#travel",
+    "href": "gallery.html#travel",
+    "title": "Gallery",
+    "section": "Travel",
+    "text": "Travel"
+  },
+  {
+    "objectID": "gallery.html#undergrad",
+    "href": "gallery.html#undergrad",
+    "title": "Gallery",
+    "section": "Undergrad",
+    "text": "Undergrad"
+  },
+  {
+    "objectID": "gallery.html#home",
+    "href": "gallery.html#home",
+    "title": "Gallery",
+    "section": "Home",
+    "text": "Home"
   }
 ]
