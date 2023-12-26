@@ -10,20 +10,20 @@ lightbox: auto
 
 ![](img/nhboat.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/a-brown-dog-laying-on-top-of-a-white-bed-90ub4oBH1WU){group="my-gallery"}
+![](img/ncoysterreef.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/ZJVXcRmaSJM){group="my-gallery"}
+![](img/nahantview.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/cVpfbLcm0Bo){group="my-gallery"}
+![](img/nhmshells.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/a-white-cat-laying-on-top-of-a-white-curtain-fIkdTouhWMg){group="my-gallery"}
+![](img/shoalssunset.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/78YxP3PP05A){group="my-gallery"}
+![](img/ffpeoysters.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/PU1Yqe9kNpg){group="my-gallery"}
+![](tjarnostar.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/uutHQEjfx3g){group="my-gallery"}
+![](histologydrawer.jpeg){group="my-gallery"}
 
-![](https://source.unsplash.com/JcIFJnZDUHQ){group="my-gallery"}
+![](maineboat.jpeg){group="my-gallery"}
 
 :::
