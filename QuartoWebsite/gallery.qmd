@@ -9,30 +9,35 @@ lightbox: auto
 Featuring pictures of places I've traveled to during my PhD to conduct field work, complete research, or attend conferences or workshops. 
 
 ::: {layout="[[1, 1], [1, 1]]"}
-![Virginia Institute of Marine Science](img/histologydrawer.jpeg){width=400}
+![Virginia Institute of Marine Science](img/histologydrawer.jpeg){width=400}{group="research"
+description="Preserved Bivalve Tissues in the Shellfish Pathology Lab"}
 
-![Northeastern Marine Science Center](img/nahantview.jpeg){width=400}
+![Northeastern Marine Science Center](img/nahantview.jpeg){width=400}{group="research"
+description="My lab is located on Nahant, north of Boston in Massachusetts Bay."}
 
-![North Carolina Oyster Reef](img/ncoysterreef.jpeg){width=400}
+![North Carolina Oyster Reef](img/ncoysterreef.jpeg){width=400}{group="research"
+description="This site near UNCW is included in my population genomics study."}
 
-![Natural History Museum of New Mexico](img/nhmshells.jpeg){width=400}
+![New Mexico Museum of Natural History](img/nhmshells.jpeg){width=400}{group="research"
+description="A tour of NMMNH's malacology collection during the Evolution 2023 conference."}
 
 :::
 
 ::: {layout="[[1, 1]]"}
-![Tjarno Marine Lab, Sweden](img/tjarnostar.jpeg){width=400}
+![Tjarno Marine Lab, Sweden](img/tjarnostar.jpeg){width=400}{group="research"
+description="Sea stars I collected near Kosterhavets National Park for the Ocean Genome Legacy Biorepository."}
 
 ![Historic Preserved Oysters at VIMS](img/ffpeoysters.jpeg){width=400}
 
 :::
 
-::: {layout="[[1], [1], [1]]"}
+::: {layout="[[1, 1]]"}
 
-![New Hampshire Oyster Reef](img/nhboat.jpeg){width=700}
+![New Hampshire Oyster Reef](img/nhboat.jpeg){width=400}
 
-![Gulf of Maine](img/maineboat.jpeg){width=700}
+![Gulf of Maine](img/maineboat.jpeg){width=400}
 
-![Shoals Marine Lab](img/shoalssunset.JPG){width=700}
+![Shoals Marine Lab](img/shoalssunset.JPG){width=400}
 
 :::
 
