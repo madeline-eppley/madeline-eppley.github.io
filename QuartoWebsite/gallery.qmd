@@ -7,24 +7,29 @@ lightbox: auto
 
 ## My Research
 
-::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
-
-![New Hampshire Oyster Reef](img/nhboat.jpeg){group="research"}
-
-![North Carolina Oyster Reef](img/ncoysterreef.jpeg){group="research"}
+::: {layout="[[1, 1], [1]]"}
+![Virginia Institute of Marine Science](img/histologydrawer.jpeg){group="research"}
 
 ![Northeastern Marine Science Center](img/nahantview.jpeg){group="research"}
 
-![Natural History Museum of New Mexico](img/nhmshells.jpeg){group="research"}
+![North Carolina Oyster Reef](img/ncoysterreef.jpeg){group="research"}
 
-![Shoals Marine Lab](img/shoalssunset.jpeg){group="research"}
+:::
+
+::: {layout="[[1, 1], [1]]"}
+
+![Natural History Museum of New Mexico](img/nhmshells.jpeg){group="research"}
 
 ![Historic Preserved Oysters](img/ffpeoysters.jpeg){group="research"}
 
 ![Tjarno Marine Lab](img/tjarnostar.jpeg){group="research"}
 
-![Virginia Institute of Marine Science](img/histologydrawer.jpeg){group="research"}
+::: {layout="[[1, 1], [1]]"}
+
+![New Hampshire Oyster Reef](img/nhboat.jpeg){group="research"}
 
 ![Gulf of Maine](img/maineboat.jpeg){group="research"}
+
+![Shoals Marine Lab](img/shoalssunset.JPG){group="research"}
 
 :::
