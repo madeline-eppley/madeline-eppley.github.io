@@ -6,7 +6,7 @@ project:
 website:
   title: "Madeline Eppley"
   navbar:
-    logo: img/crablogo.jpeg
+    logo: img/madelinelogoblackback.jpg
     right: 
       - icon: github
         href: https://github.com/madeline-eppley
