@@ -1,6 +1,5 @@
 ---
 title: "Image gallery"
-format: html
 filters:
    - lightbox
 lightbox: auto
@@ -8,22 +7,22 @@ lightbox: auto
 
 ::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
 
-![](img/nhboat.jpeg){group="my-gallery"}
+![](img/nhboat.jpeg){group="research"}
 
-![](img/ncoysterreef.jpeg){group="my-gallery"}
+![](img/ncoysterreef.jpeg){group="research"}
 
-![](img/nahantview.jpeg){group="my-gallery"}
+![](img/nahantview.jpeg){group="research"}
 
-![](img/nhmshells.jpeg){group="my-gallery"}
+![](img/nhmshells.jpeg){group="research"}
 
-![](img/shoalssunset.jpeg){group="my-gallery"}
+![](img/shoalssunset.jpeg){group="research"}
 
-![](img/ffpeoysters.jpeg){group="my-gallery"}
+![](img/ffpeoysters.jpeg){group="research"}
 
-![](tjarnostar.jpeg){group="my-gallery"}
+![](tjarnostar.jpeg){group="research"}
 
-![](histologydrawer.jpeg){group="my-gallery"}
+![](histologydrawer.jpeg){group="research"}
 
-![](maineboat.jpeg){group="my-gallery"}
+![](maineboat.jpeg){group="research"}
 
 :::
