@@ -23,7 +23,7 @@ I have keen interests in seascape genomics, museomics and natural history, disea
 :::
 
 ::: column-page-inset
-![](img/madelinelogowhiteback.jpg)
+![](img/madelinelogowhiteback.jpg){width=300}
 :::
 
 --------------------------------------------------------------------------------------------
