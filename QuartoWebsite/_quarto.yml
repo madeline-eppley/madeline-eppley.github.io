@@ -4,9 +4,9 @@ project:
   resources: "/img"
 
 website:
-  title: "Madeline Eppley"
+  title: "Madeline G. Eppley"
   navbar:
-    logo: img/madelinelogoblackback.jpg
+    logo: ![](img/madelinelogoblackback.jpg){width = 100}
     right: 
       - icon: github
         href: https://github.com/madeline-eppley
