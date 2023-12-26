@@ -35,7 +35,7 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: lux
     mainfont: 'Tahoma'
     css: styles.css
     toc: true
