@@ -43,17 +43,35 @@ description="Sea stars I collected near Kosterhavets National Park for the Ocean
 ![Shoals Marine Lab](img/shoalssunset.JPG){width=400}
 
 ## Travel and Outdoors
+### New England
+I love to travel regionally from Boston for camping and hiking. Some of my favorite places are the White Mountains in New Hampshire, coastal New England, and the Berkshires in western MA, where I went to undergrad. 
 ::: {layout="[[1, 1]]"}
 
 ![New Hampshire White Mountains](img/groupcamping.jpeg){width=400}
 
-![Great Smoky Mountains National Park](img/smokies.jpeg){width=400}
+![Coastal New Hampshire](img/shoalscoast.jpeg){width=400}
+
+:::
+
+### Southwest and Rocky Mountains
+I traveled to many of these places during my gap year after finishing undergrad. Although COVID disrupted regular travel, I was able to drive extensively across the region for camping and hiking while remotely working. 
+
+::: {layout="[[1, 1], [1, 1]]"}
+![Arches National Park - Utah](img/utaharches.jpeg){width=400}{group="travel"
+description="Arches National Park - Utah"}
+
+![Western Colorado](img/coloradonm.jpeg){width=400}{group="travel"
+description="Colorado National Monument - Grand Junction"}
+
+![Bryce Canyon National Park - Utah](img/brycenp.jpeg){width=400}{group="travel"
+description="Hoodoos"}
+
+![Wyoming Welcome Sign](img/wyoming.jpeg){width=400}{group="travel"
+description="Driving north to Wyoming via Colorado"}
 
 :::
 
 
-## Undergrad
-
-
 ## Home
+I am currently located in Boston for my PhD. I'm originally from south-central Pennsylvania, and I enjoy spending time in South Carolina with family too. 
 
