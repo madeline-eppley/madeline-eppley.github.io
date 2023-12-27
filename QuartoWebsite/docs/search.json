@@ -74,34 +74,27 @@
     "href": "gallery.html",
     "title": "Gallery",
     "section": "",
-    "text": "Featuring pictures of places I’ve traveled to during my PhD to conduct field work, complete research, or attend conferences or workshops.\n\n\n\n\n\nVirginia Institute of Marine Science\n\n\n\n\n\nNortheastern Marine Science Center\n\n\n\n\n\n\n\nNorth Carolina Oyster Reef\n\n\n\n\n\nNatural History Museum of New Mexico\n\n\n\n\n\n\n\n\n\nTjarno Marine Lab, Sweden\n\n\n\n\n\nHistoric Preserved Oysters at VIMS\n\n\n\n\n\n\n\n\n\nNew Hampshire Oyster Reef\n\n\n\n\n\n\n\nGulf of Maine\n\n\n\n\n\n\n\nShoals Marine Lab"
+    "text": "Featuring pictures of places I’ve traveled to during my PhD to conduct field work, complete research, or attend conferences or workshops.\n\n\n\n{group=“research” description=“Preserved Bivalve Tissues in the Shellfish Pathology Lab”}\n\n\n{group=“research” description=“My lab is located on Nahant, north of Boston in Massachusetts Bay.”}\n\n\n\n\n{group=“research” description=“This site near UNCW is included in my population genomics study.”}\n\n\n{group=“research” description=“A tour of NMMNH’s malacology collection during the Evolution 2023 conference.”}\n\n\n\n\n\n\n{group=“research” description=“Sea stars I collected near Kosterhavets National Park for the Ocean Genome Legacy Biorepository.”}\n\n\n\n\nHistoric Preserved Oysters at VIMS\n\n\n\n\n\n\n\n\n\nNew Hampshire Oyster Reef\n\n\n\n\n\nGulf of Maine\n\n\n\n\n\n\n\nShoals Marine Lab"
   },
   {
     "objectID": "gallery.html#phd-research",
     "href": "gallery.html#phd-research",
     "title": "Gallery",
     "section": "",
-    "text": "Featuring pictures of places I’ve traveled to during my PhD to conduct field work, complete research, or attend conferences or workshops.\n\n\n\n\n\nVirginia Institute of Marine Science\n\n\n\n\n\nNortheastern Marine Science Center\n\n\n\n\n\n\n\nNorth Carolina Oyster Reef\n\n\n\n\n\nNatural History Museum of New Mexico\n\n\n\n\n\n\n\n\n\nTjarno Marine Lab, Sweden\n\n\n\n\n\nHistoric Preserved Oysters at VIMS\n\n\n\n\n\n\n\n\n\nNew Hampshire Oyster Reef\n\n\n\n\n\n\n\nGulf of Maine\n\n\n\n\n\n\n\nShoals Marine Lab"
+    "text": "Featuring pictures of places I’ve traveled to during my PhD to conduct field work, complete research, or attend conferences or workshops.\n\n\n\n{group=“research” description=“Preserved Bivalve Tissues in the Shellfish Pathology Lab”}\n\n\n{group=“research” description=“My lab is located on Nahant, north of Boston in Massachusetts Bay.”}\n\n\n\n\n{group=“research” description=“This site near UNCW is included in my population genomics study.”}\n\n\n{group=“research” description=“A tour of NMMNH’s malacology collection during the Evolution 2023 conference.”}\n\n\n\n\n\n\n{group=“research” description=“Sea stars I collected near Kosterhavets National Park for the Ocean Genome Legacy Biorepository.”}\n\n\n\n\nHistoric Preserved Oysters at VIMS\n\n\n\n\n\n\n\n\n\nNew Hampshire Oyster Reef\n\n\n\n\n\nGulf of Maine\n\n\n\n\n\n\n\nShoals Marine Lab"
   },
   {
-    "objectID": "gallery.html#travel",
-    "href": "gallery.html#travel",
+    "objectID": "gallery.html#travel-and-outdoors",
+    "href": "gallery.html#travel-and-outdoors",
     "title": "Gallery",
-    "section": "Travel",
-    "text": "Travel"
-  },
-  {
-    "objectID": "gallery.html#undergrad",
-    "href": "gallery.html#undergrad",
-    "title": "Gallery",
-    "section": "Undergrad",
-    "text": "Undergrad"
+    "section": "Travel and Outdoors",
+    "text": "Travel and Outdoors\n\nNew England\nI love to travel regionally from Boston for camping and hiking. Some of my favorite places are the White Mountains in New Hampshire, coastal New England, and the Berkshires in western MA, where I went to undergrad. ::: {layout=“[[1, 1]]”}\n\n\n\nNew Hampshire White Mountains\n\n\n\n\n\nCoastal New Hampshire\n\n\n:::\n\n\nSouthwest and Rocky Mountains\nI traveled to many of these places during my gap year after finishing undergrad. Although COVID disrupted regular travel, I was able to drive extensively across the region for camping and hiking while remotely working.\n\n\n\n{group=“travel” description=“Arches National Park - Utah”}\n\n\n{group=“travel” description=“Colorado National Monument - Grand Junction”}\n\n\n\n\n{group=“travel” description=“Hoodoos”}\n\n\n{group=“travel” description=“Driving north to Wyoming via Colorado”}"
   },
   {
     "objectID": "gallery.html#home",
     "href": "gallery.html#home",
     "title": "Gallery",
     "section": "Home",
-    "text": "Home"
+    "text": "Home\nI am currently located in Boston for my PhD. I’m originally from south-central Pennsylvania, and I enjoy spending time in South Carolina with family too."
   }
 ]
