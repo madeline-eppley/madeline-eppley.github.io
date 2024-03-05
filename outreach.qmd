@@ -1,0 +1,43 @@
+---
+title: "Outreach and Education"
+---
+
+## Northeastern University Teaching Assistant
+
+I have taught multiple undergraduate-level lab courses as an instructor-of-record at Northeastern University during my PhD.
+
+### Introduction to Data: Environmental, Biological, and Social Data Lab (ENVR1501)
+
+-   Semesters Taught: Fall 2021, Spring 2024
+-   This course uses examples from the three disciplines (environmental science, social science,\
+    and biology) to gain experience with how data is collected, organized for study, and used to reach\
+    conclusions. Students learned how to collect data to help answer a specific research\
+    question that each lab group devised; how to organize data in an Excel spreadsheet for\
+    analysis; how to find errors in datasets; and how to \'code\' (write a computer\
+    program for a simple task, using the \'R\' open-source language).
+
+### Marine Biology Lab (EEMB 2701)
+
+-   Semesters Taught: Spring 2023
+
+## Outreach
+
+### High School Marine Science Symposium - Oyster Doctors Workshop
+
+I have developed a workshop geared for 9-12 grade students that focuses on fundamental ecology and evolution concepts, including lab work! This workshop is meant to be run for 20-30 students during a \~45 minute time period, not including set up and clean up.
+
+In the workshop, students will:
+
+\(1\) learn how to use scientific dissection tools (e.g. scalpel, tweezers, shucking knife) and dissect an eastern oyster, (2) identify anatomical structures and understand basic shellfish biology, (3) consider potential abiotic and biotic environmental drivers of phenotype divergence between geographically distant populations (e.g. intro to isolation-by-distance theory) and (4) brainstorm restoration approaches for the eastern oyster.
+
+#### This workshop has been successfully run for several iterations! 
+
+-   Northeastern University High School Marine Science Symposium, March 2023 (see the press release here)
+
+-   COSA Marine Science Academy at Northeastern University Marine Science Center, August 2023
+
+Northeastern University BEACHES COSA
+
+Lynn Public High Schools Outreach
+
+Marine Biology Club at Northeastern University

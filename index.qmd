@@ -24,10 +24,6 @@ In the near future, I aim for my research to (1) delineate range-wide population
 Longer term, I have a keen interest in continuing landscape genomics research with historic or ancient DNA specimens to better understand disease and parasite effects on host evolution over time. My ultimate goal is to promote scientific understanding and informed conservation of species threatened by disease (particularly in marine environments) with spatial and temporal 'omics approaches.
 :::
 
-::: column-screen-right
-![](img/madelinelogowhiteback.jpg){width="450"}
-:::
-
 ------------------------------------------------------------------------
 
 ::: column-page-inset

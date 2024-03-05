@@ -1,0 +1,19 @@
+---
+title: "research"
+---
+
+Some of my PhD research, coming soon!
+
+
+## Population Genomics
+
+
+Population genomics of wild eastern oysters Population structure and GEAs
+
+## Oyster Diseases
+
+Spatial distributions of oyster diseases and parasites Disease susceptibility across wild populations
+
+\## Museomics and hDNA
+
+Historic DNA and museomics for revealing selection to epizootics

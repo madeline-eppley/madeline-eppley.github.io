@@ -19,14 +19,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about_me.qmd
-        text: About Me
       - href: phd_work.qmd
-        text: My Work
-      - href: gallery.qmd
-        text: Gallery
+        text: Research
+      - href: outreach.qmd
+        text: Outreach
+      - href: scicomm.qmd
+        text: SciComm
       - href: resume.qmd
         text: Resume
+      - href: gallery.qmd
+        text: Travel
   page-footer: 
     left: "Copyright 2024, Madeline Eppley"
     right: "Made with Quarto"
