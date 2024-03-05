@@ -15,7 +15,7 @@ about:
 ---
 
 ::: column-page-inset
-Hi! I'm Madeline, welcome to my website. I'm currently pursing a PhD in Marine and Environmental Science at [Northeastern University](https://cos.northeastern.edu/marinescience/) in the Lotterhos Lab. TEST MESSAGE 3/5
+Hi! I'm Madeline, welcome to my website. I'm currently pursing a PhD in Marine and Environmental Science at [Northeastern University](https://cos.northeastern.edu/marinescience/) in the Lotterhos Lab.
 
 For my PhD, I am studying evolution of wild eastern oyster populations over space and time by integrating insights from population genomics approaches, environment and disease data, and historic museum DNA.
 
