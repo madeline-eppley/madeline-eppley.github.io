@@ -19,7 +19,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: phd_work.qmd
+      - href: research.qmd
         text: Research
       - href: outreach.qmd
         text: Outreach
