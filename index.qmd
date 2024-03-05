@@ -1,11 +1,41 @@
 ---
-title: "madeline-eppley.github.io"
+title: "Madeline G. Eppley"
+about:
+  template: trestles
+  image: img/profilepic.jpeg
+  links:
+      - icon: github
+        href: https://github.com/madeline-eppley
+      - icon: twitter
+        href: https://twitter.com/MadelineGEppley
+      - icon: linkedin
+        href: https://www.linkedin.com/in/madeline-eppley/
+      - icon: mortarboard-fill
+        href: https://cos.northeastern.edu/people/madeline-eppley/
 ---
 
-This is a Quarto website. test message 3/5
+::: column-page-inset
+Hi! I'm Madeline, welcome to my website. I'm currently pursing a PhD in Marine and Environmental Science at [Northeastern University](https://cos.northeastern.edu/marinescience/) in the Lotterhos Lab. TEST MESSAGE 3/5
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+For my PhD, I am studying evolution of wild eastern oyster populations over space and time by integrating insights from population genomics approaches, environment and disease data, and historic museum DNA.
 
-```{r}
-1 + 1
-```
+In the near future, I aim for my research to (1) delineate range-wide population structure of the eastern oyster, (2) identify genomic regions involved with immune response to parasite infection, and (3) highlight the utility of preserved museum DNA for temporally-informed marine disease genomics research.
+
+Longer term, I have a keen interest in continuing landscape genomics research with historic or ancient DNA specimens to better understand disease and parasite effects on host evolution over time. My ultimate goal is to promote scientific understanding and informed conservation of species threatened by disease (particularly in marine environments) with spatial and temporal 'omics approaches.
+:::
+
+::: column-screen-right
+![](img/madelinelogowhiteback.jpg){width="450"}
+:::
+
+------------------------------------------------------------------------
+
+::: column-page-inset
+Check out the [Lotterhos Lab Website](https://sites.google.com/site/katielotterhos/home) for more information about my lab and our research!
+:::
+
+------------------------------------------------------------------------
+
+::: column-page-inset
+*I made this website with [Quarto](https://quarto.org/docs/websites).*
+:::
