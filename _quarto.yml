@@ -1,21 +1,43 @@
 project:
   type: website
   output-dir: docs
+  resources: "/img"
 
 website:
-  title: "madeline-eppley.github.io"
+  title: "Madeline G. Eppley"
   navbar:
+    right: 
+      - icon: github
+        href: https://github.com/madeline-eppley
+      - icon: twitter
+        href: https://twitter.com/MadelineGEppley
+      - icon: linkedin
+        href: https://www.linkedin.com/in/madeline-eppley/
+      - icon: mortarboard-fill
+        href: https://cos.northeastern.edu/people/madeline-eppley/
+        
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - phd_work.qmd
+      - href: about_me.qmd
+        text: About Me
+      - href: phd_work.qmd
+        text: My Work
+      - href: gallery.qmd
+        text: Gallery
+      - href: resume.qmd
+        text: Resume
+  page-footer: 
+    left: "Copyright 2024, Madeline Eppley"
+    right: "Made with Quarto"
+    border: true
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: lux
+    mainfont: 'Tahoma'
     toc: true
+    page-layout: full
 
 editor: visual
 
