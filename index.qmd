@@ -29,7 +29,7 @@ Longer term, I have a keen interest in continuing landscape genomics research wi
 
 ::: {layout="\[\[1, 1\]\]"}
 
-![logo](img/madelinelogo.jpeg)
+![logo](img/madelinelogo.jpg)
 ![nahant](img/nahantbanner.jpeg)
 
 :::
