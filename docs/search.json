@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Madeline G. Eppley",
     "section": "",
-    "text": "Hi! I’m Madeline, welcome to my website. I’m currently pursing a PhD in Marine and Environmental Science at Northeastern University in the Lotterhos Lab.\nFor my PhD, I am studying evolution of wild eastern oyster populations over space and time by integrating insights from population genomics approaches, environment and disease data, and historic museum DNA.\nIn the near future, I aim for my research to (1) delineate range-wide population structure of the eastern oyster, (2) identify genomic regions involved with immune response to parasite infection, and (3) highlight the utility of preserved museum DNA for temporally-informed marine disease genomics research.\nLonger term, I have a keen interest in continuing landscape genomics research with historic or ancient DNA specimens to better understand disease and parasite effects on host evolution over time. My ultimate goal is to promote scientific understanding and informed conservation of species threatened by disease (particularly in marine environments) with spatial and temporal ’omics approaches.\n\n\n\n\n\n\n\n::: column-page-inset\n\n\n::: {layout=“[[1, 1]]”}\n\n\n \n\n\n:::\n\n\nI hold a B.A. in Biology, magna cum laude, from Bard College at Simon’s Rock in Great Barrington, MA. I was awarded my B.A. in 2020 and graduated with Highest Honors on my senior thesis. For my senior thesis, I investigated the rate of shark and swordfish meat substitutions in New England markets (in prep manuscript available upon request).\n\n\n:::\n\n\n\n\nI made this website with Quarto and published with GitHub pages. Check out my associated GitHub repository with all associated code!"
+    "text": "Hi! I’m Madeline, welcome to my website. I’m currently pursuing a PhD in Marine and Environmental Science at Northeastern University in the Lotterhos Lab.\nThis site largely contains a digital repository of my work, including lab notebooks, code and outputs, and resource lists I’ve developed. You can find my main website here.\nI made this website with Quarto and published with GitHub pages. Check out my associated GitHub repository with all associated code!"
   },
   {
     "objectID": "about.html",
@@ -110,5 +110,117 @@
     "title": "Outreach and Education",
     "section": "",
     "text": "I have taught multiple undergraduate-level lab courses as an instructor-of-record at Northeastern University during my PhD.\n\n\n\nSemesters Taught: Fall 2021, Spring 2024\nThis course uses examples from the three disciplines (environmental science, social science,\nand biology) to gain experience with how data is collected, organized for study, and used to reach\nconclusions. Students learned how to collect data to help answer a specific research\nquestion that each lab group devised; how to organize data in an Excel spreadsheet for\nanalysis; how to find errors in datasets; and how to 'code' (write a computer\nprogram for a simple task, using the 'R' open-source language).\n\n\n\n\n\nSemesters Taught: Spring 2023"
+  },
+  {
+    "objectID": "labnotebook.html",
+    "href": "labnotebook.html",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, PicoGreen Assays, gel electrophoresis, qPCR, and FFPE tissue DNA isolation."
+  },
+  {
+    "objectID": "labnotebook.html#northeastern-university-teaching-assistant",
+    "href": "labnotebook.html#northeastern-university-teaching-assistant",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "I have taught multiple undergraduate-level lab courses as an instructor-of-record at Northeastern University during my PhD.\n\n\n\nSemesters Taught: Fall 2021, Spring 2024\nThis course uses examples from the three disciplines (environmental science, social science,\nand biology) to gain experience with how data is collected, organized for study, and used to reach\nconclusions. Students learned how to collect data to help answer a specific research\nquestion that each lab group devised; how to organize data in an Excel spreadsheet for\nanalysis; how to find errors in datasets; and how to 'code' (write a computer\nprogram for a simple task, using the 'R' open-source language).\n\n\n\n\n\nSemesters Taught: Spring 2023"
+  },
+  {
+    "objectID": "labnotebook.html#outreach",
+    "href": "labnotebook.html#outreach",
+    "title": "Lab Notebook",
+    "section": "Outreach",
+    "text": "Outreach\n\nHigh School Marine Science Symposium - Oyster Doctors Workshop\nI have developed a workshop geared for 9-12 grade students that focuses on fundamental ecology and evolution concepts, including lab work! This workshop is meant to be run for 20-30 students during a ~45 minute time period, not including set up and clean up.\nIn the workshop, students will:\n(1) learn how to use scientific dissection tools (e.g. scalpel, tweezers, shucking knife) and dissect an eastern oyster, (2) identify anatomical structures and understand basic shellfish biology, (3) consider potential abiotic and biotic environmental drivers of phenotype divergence between geographically distant populations (e.g. intro to isolation-by-distance theory) and (4) brainstorm restoration approaches for the eastern oyster.\n\nThis workshop has been successfully run for several iterations!\n\nNortheastern University High School Marine Science Symposium, March 2023 (see the press release here)\nCOSA Marine Science Academy at Northeastern University Marine Science Center, August 2023\n\nNortheastern University BEACHES COSA\nLynn Public High Schools Outreach\nMarine Biology Club at Northeastern University"
+  },
+  {
+    "objectID": "labnotebook.html#lab-notebook",
+    "href": "labnotebook.html#lab-notebook",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, PicoGreen Assays, gel electrophoresis, qPCR, and FFPE tissue DNA isolation."
+  },
+  {
+    "objectID": "labnotebook.html#qpcr",
+    "href": "labnotebook.html#qpcr",
+    "title": "Lab Notebook",
+    "section": "qPCR",
+    "text": "qPCR\nI am currently developing protocols for this, check back soon!"
+  },
+  {
+    "objectID": "labnotebook.html#eastern-oyster-dna-plate-extractions",
+    "href": "labnotebook.html#eastern-oyster-dna-plate-extractions",
+    "title": "Lab Notebook",
+    "section": "Eastern Oyster DNA Plate Extractions",
+    "text": "Eastern Oyster DNA Plate Extractions\nNotes on this protocol coming soon!\n\nChallenge - Working with Small Tissues\nNotes on this protocol coming soon!"
+  },
+  {
+    "objectID": "labnotebook.html#picogreen-assays",
+    "href": "labnotebook.html#picogreen-assays",
+    "title": "Lab Notebook",
+    "section": "PicoGreen Assays",
+    "text": "PicoGreen Assays\nNotes on this protocol coming soon!"
+  },
+  {
+    "objectID": "labnotebook.html#gel-electrophoresis",
+    "href": "labnotebook.html#gel-electrophoresis",
+    "title": "Lab Notebook",
+    "section": "Gel Electrophoresis",
+    "text": "Gel Electrophoresis\nWe run 2% agarose gels with GelRed to visualize genomic DNA &gt;3k base pairs."
+  },
+  {
+    "objectID": "labnotebook.html#ffpe-tissue-dna-isolation",
+    "href": "labnotebook.html#ffpe-tissue-dna-isolation",
+    "title": "Lab Notebook",
+    "section": "FFPE Tissue DNA Isolation",
+    "text": "FFPE Tissue DNA Isolation\nI am currently developing protocols for this, check back soon!"
+  },
+  {
+    "objectID": "coding.html",
+    "href": "coding.html",
+    "title": "Coding",
+    "section": "",
+    "text": "Coding and outputs from some of my PhD research"
+  },
+  {
+    "objectID": "coding.html#population-genomics",
+    "href": "coding.html#population-genomics",
+    "title": "Coding",
+    "section": "Population Genomics",
+    "text": "Population Genomics\nPopulation genomics of wild eastern oysters - PCAs and STRUCTURE analysis - Genotype-Environment Associations (GEAs) - Population Differentiation (Fst) analysis - Effective Population Size (Ne)"
+  },
+  {
+    "objectID": "coding.html#environmental-data",
+    "href": "coding.html#environmental-data",
+    "title": "Coding",
+    "section": "Environmental Data",
+    "text": "Environmental Data\nComing soon!"
+  },
+  {
+    "objectID": "resources.html#digital-literacy-and-science-communication-resources",
+    "href": "resources.html#digital-literacy-and-science-communication-resources",
+    "title": "Resources",
+    "section": "Digital Literacy and Science Communication Resources",
+    "text": "Digital Literacy and Science Communication Resources"
+  },
+  {
+    "objectID": "resources.html#lgbtqia-community-resources",
+    "href": "resources.html#lgbtqia-community-resources",
+    "title": "Resources",
+    "section": "LGBTQIA+ Community Resources",
+    "text": "LGBTQIA+ Community Resources"
+  },
+  {
+    "objectID": "resources.html#science-communication-resources",
+    "href": "resources.html#science-communication-resources",
+    "title": "Resources",
+    "section": "Science Communication Resources",
+    "text": "Science Communication Resources"
+  },
+  {
+    "objectID": "resources.html#lgbtqia-in-stem-resources",
+    "href": "resources.html#lgbtqia-in-stem-resources",
+    "title": "Resources",
+    "section": "LGBTQIA+ in STEM Resources",
+    "text": "LGBTQIA+ in STEM Resources"
   }
 ]

@@ -2,7 +2,7 @@
 title: "Madeline G. Eppley"
 about:
   template: trestles
-  image: img/profilepic.jpeg
+  image: img/profilepic.JPG
   links:
       - icon: github
         href: https://github.com/madeline-eppley
@@ -16,12 +16,10 @@ about:
         href: https://www.madeline-eppley.com
 ---
 
-::: column-page-inset
-Hi! I'm Madeline, welcome to my website. I'm currently pursing a PhD in Marine and Environmental Science at [Northeastern University](https://cos.northeastern.edu/marinescience/) in the [Lotterhos Lab](https://sites.google.com/site/katielotterhos/home).
+Hi! I'm Madeline, welcome to my website. I'm currently pursuing a PhD in Marine and Environmental Science at [Northeastern University](https://cos.northeastern.edu/marinescience/) in the [Lotterhos Lab](https://sites.google.com/site/katielotterhos/home).
 
 This site largely contains a digital repository of my work, including lab notebooks, code and outputs, and resource lists I've developed. You can find [my main website here](https://www.madeline-eppley.com).
-:::
 
-::: column-page-inset
+
 *I made this website with [Quarto](https://quarto.org/docs/websites) and published with [GitHub pages](https://pages.github.com/). Check out my associated [GitHub repository](https://github.com/madeline-eppley/madeline-eppley.github.io) with all associated code!*
-:::
+

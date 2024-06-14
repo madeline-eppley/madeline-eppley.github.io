@@ -2,18 +2,18 @@
 title: "Coding"
 ---
 
-Some of my PhD research, coming soon!
+Coding and outputs from some of my PhD research
 
 
 ## Population Genomics
 
+Population genomics of wild eastern oysters
+- PCAs and STRUCTURE analysis
+- Genotype-Environment Associations (GEAs)
+- Population Differentiation (Fst) analysis
+- Effective Population Size (Ne)
 
-Population genomics of wild eastern oysters Population structure and GEAs
+## Environmental Data
 
-## Oyster Diseases
+Coming soon!
 
-Spatial distributions of oyster diseases and parasites Disease susceptibility across wild populations
-
-\## Museomics and hDNA
-
-Historic DNA and museomics for revealing selection to epizootics
