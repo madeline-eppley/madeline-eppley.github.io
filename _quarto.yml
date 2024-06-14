@@ -15,20 +15,19 @@ website:
         href: https://www.linkedin.com/in/madeline-eppley/
       - icon: mortarboard-fill
         href: https://cos.northeastern.edu/people/madeline-eppley/
+      - icon: laptop
+        href: https://www.madeline-eppley.com
         
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
-      - href: outreach.qmd
-        text: Outreach
-      - href: scicomm.qmd
-        text: SciComm
-      - href: resume.qmd
-        text: Resume
-      - href: gallery.qmd
-        text: Travel
+      - href: labnotebook.qmd
+        text: Lab Notebook
+      - href: coding.qmd
+        text: Coding and Bioinfomatics
+      - href: resources.qmd
+        text: Resources
+
   page-footer: 
     left: "Copyright 2024, Madeline Eppley"
     right: "Made with Quarto"
