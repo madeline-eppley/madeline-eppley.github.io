@@ -5,6 +5,41 @@ title: "Coding"
 Coding and outputs from some of my PhD research
 
 
+## Environmental Data
+
+Coming soon!
+
+## Creating a Quarto Website with GitHub
+**Before getting started, you need (1) a GitHub account, (2) RStudio on your local machine, (3) GitHub desktop or Terminal, and (4) Quarto.**
+I will complete this tutorial using GitHub Desktop, as I think it is easier to learn for those with less coding familiarity. 
+
+##### Initializing the website
+(@) In GitHub, create a new repository with the domain name that you would like for your website. For example, my repository name is 'madeline-eppley', so my website will be named 'madeline-eppley.github.io'. 
+(@) In GitHub Desktop, choose "Add Existing Repository" and paste the clone url. Alternatively, you can open the repository in GitHub, then select "Open with GitHub Desktop". If you're using the terminal, you can clone the repository with `gh repo clone repo-name/repo-name.github.io`.
+(@) If this was your first time linking a repository through GitHub Desktop, by default, GitHub Desktop will create a local folder named "GitHub" in your Documents folder (on a Mac) and place your repository there. I moved this folder into my regular user space, but you can store it anywhere you like. If you've already set up GitHub Desktop, your new repository will be linked in the previously created folder. Locate your local repository folder. 
+(@) In your local R Studio, initialize a new Quarto project with "New Project" and select "Quarto Website". Then, provide the directory name as your local repository folder. You should now see a basic index.qmd and _quarto.yml file in your directory. 
+(@) Open your _quarto.yml file and add `output-dir: docs` directly under the type: website line. Save the edit.
+(@) Make a test edit to the index.qmd file and then check "Render on Save". This will open up a locally-hosted browser where you can preview your edits. If everything looks good, you can select "Render" and will have auto-generated .html files appear in a new /docs folder within the repository folder. 
+(@) Test the setup by committing these new files to GitHub through GitHub desktop. You should then see your new setup files on GitHub. 
+
+###### Rendering the Website 
+(@) Go to "Settings" in GitHub and scroll down to Pages. There, select Source "Deploy from a branch" and edit the branch so that it renders from the /docs folder in the main branch. The folder that you select should be where your .html files are stored, so do NOT move your .html files out of the /docs folder. 
+(@) At this point, GitHub will begin automatically rendering your site. Under the "Actions" tab, you can check the build and deployment status. (@) When it completes, you can return to Settings/Pages and see that your site will be live at 'your-repo-title.github.io'. Now you can visit your site!
+
+##### Editing your Website Structure
+Quarto websites are designed to host structure within the _quarto.yml file. Here, you establish your website format, image folders, style, font design, header and footer, and order of the pages. You can check out my [_quarto.yml](https://github.com/madeline-eppley/madeline-eppley.github.io) file in my repo for inspiration! 
+
+Your index.qmd file is your first "page" and is the home screen of your website. You can add new pages at any time by adding a new .qmd file in GitHub. Each time you add a new element of "structure" (eg. a new page), you need to update the _quarto.yml file to add this file. 
+
+I typically edit my pages locally in RStudio, but it is also possible to edit them within GitHub. [Standard R markdown formatting](https://quarto.org/docs/authoring/markdown-basics.html) also applies to .qmd files. Wherever you edit, be sure to use GitHub desktop or git to push and pull your edits. Whenever you're ready to publish your new edits, you need to return to your local RStudio and "Render" your edited file. This step is important because it re-generates your .html file, which is what is actually used to build the website. To save myself the hassle of remembering this step, I enable "Render on Save" for all of my pages within RStudio.  
+
+##### Adding Images to your Website
+Coming soon!
+
+##### Styles, Icons, Fonts, and Colors
+Coming soon!
+
+
 ## Population Genomics
 
 Population genomics of wild eastern oysters
@@ -12,8 +47,3 @@ Population genomics of wild eastern oysters
 - Genotype-Environment Associations (GEAs)
 - Population Differentiation (Fst) analysis
 - Effective Population Size (Ne)
-
-## Environmental Data
-
-Coming soon!
-
