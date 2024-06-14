@@ -1,5 +1,5 @@
 ---
-title: "research"
+title: "Coding"
 ---
 
 Some of my PhD research, coming soon!
