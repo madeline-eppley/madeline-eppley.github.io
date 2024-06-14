@@ -1,8 +1,8 @@
 ---
-title: "Coding"
+title: "Coding, GitHub, and Bioinformatics"
 ---
 
-Coding and outputs from some of my PhD research
+Here I have tutorials for coding, example outputs, and best data practices that I've developed through some of my PhD-related computational research. 
 
 
 ## Environmental Data
@@ -22,9 +22,10 @@ I will complete this tutorial using GitHub Desktop, as I think it is easier to l
 (@) Make a test edit to the index.qmd file and then check "Render on Save". This will open up a locally-hosted browser where you can preview your edits. If everything looks good, you can select "Render" and will have auto-generated .html files appear in a new /docs folder within the repository folder. 
 (@) Test the setup by committing these new files to GitHub through GitHub desktop. You should then see your new setup files on GitHub. 
 
-###### Rendering the Website 
+##### Rendering the Website 
 (@) Go to "Settings" in GitHub and scroll down to Pages. There, select Source "Deploy from a branch" and edit the branch so that it renders from the /docs folder in the main branch. The folder that you select should be where your .html files are stored, so do NOT move your .html files out of the /docs folder. 
-(@) At this point, GitHub will begin automatically rendering your site. Under the "Actions" tab, you can check the build and deployment status. (@) When it completes, you can return to Settings/Pages and see that your site will be live at 'your-repo-title.github.io'. Now you can visit your site!
+(@) At this point, GitHub will begin automatically rendering your site. Under the "Actions" tab, you can check the build and deployment status.
+(@) When it completes, you can return to Settings/Pages and see that your site will be live at 'your-repo-title.github.io'. Now you can visit your site!
 
 ##### Editing your Website Structure
 Quarto websites are designed to host structure within the _quarto.yml file. Here, you establish your website format, image folders, style, font design, header and footer, and order of the pages. You can check out my [_quarto.yml](https://github.com/madeline-eppley/madeline-eppley.github.io) file in my repo for inspiration! 
@@ -41,8 +42,8 @@ Coming soon!
 
 
 ## Population Genomics
+Coming soon!
 
-Population genomics of wild eastern oysters
 - PCAs and STRUCTURE analysis
 - Genotype-Environment Associations (GEAs)
 - Population Differentiation (Fst) analysis

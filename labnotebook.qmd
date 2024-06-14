@@ -4,7 +4,7 @@ title: "Lab Notebook"
 
 ## Lab Notebook
 
-I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, PicoGreen Assays, gel electrophoresis, qPCR, and FFPE tissue DNA isolation. 
+I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, PicoGreen Assays, gel electrophoresis, qPCR, and DNA isolation from tissues preserved in FFPE material.
 
 ## Eastern Oyster DNA Plate Extractions
 
@@ -20,7 +20,7 @@ Notes on this protocol coming soon!
 
 ## Gel Electrophoresis
 
-We run 2% agarose gels with GelRed to visualize genomic DNA >3k base pairs. 
+We run 2% agarose gels with GelRed to visualize genomic DNA >3k base pairs. More on this soon!
 
 ## qPCR
 
