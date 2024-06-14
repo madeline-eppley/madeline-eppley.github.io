@@ -12,32 +12,15 @@ about:
         href: https://www.linkedin.com/in/madeline-eppley/
       - icon: mortarboard-fill
         href: https://cos.northeastern.edu/people/madeline-eppley/
+      - icon: laptop
+        href: https://www.madeline-eppley.com
 ---
 
 ::: column-page-inset
 Hi! I'm Madeline, welcome to my website. I'm currently pursing a PhD in Marine and Environmental Science at [Northeastern University](https://cos.northeastern.edu/marinescience/) in the [Lotterhos Lab](https://sites.google.com/site/katielotterhos/home).
 
-For my PhD, I am studying evolution of wild eastern oyster populations over space and time by integrating insights from population genomics approaches, environment and disease data, and historic museum DNA.
-
-In the near future, I aim for my research to (1) delineate range-wide population structure of the eastern oyster, (2) identify genomic regions involved with immune response to parasite infection, and (3) highlight the utility of preserved museum DNA for temporally-informed marine disease genomics research.
-
-Longer term, I have a keen interest in continuing landscape genomics research with historic or ancient DNA specimens to better understand disease and parasite effects on host evolution over time. My ultimate goal is to promote scientific understanding and informed conservation of species threatened by disease (particularly in marine environments) with spatial and temporal 'omics approaches.
+This site largely contains a digital repository of my work, including lab notebooks, code and outputs, and resource lists I've developed. You can find [my main website here](https://www.madeline-eppley.com).
 :::
-
-------------------------------------------------------------------------
-::: column-page-inset
-
-::: {layout="\[\[1, 1\]\]"}
-
-![logo](img/madelinelogo.jpg)
-![nahant](img/nahantbanner.jpeg)
-
-:::
-
-I hold a B.A. in Biology, *magna cum laude*, from Bard College at Simon's Rock in Great Barrington, MA. I was awarded my B.A. in 2020 and graduated with Highest Honors on my senior thesis. For my senior thesis, I investigated the rate of shark and swordfish meat substitutions in New England markets (in prep manuscript available upon request). 
-
-:::
-------------------------------------------------------------------------
 
 ::: column-page-inset
 *I made this website with [Quarto](https://quarto.org/docs/websites) and published with [GitHub pages](https://pages.github.com/). Check out my associated [GitHub repository](https://github.com/madeline-eppley/madeline-eppley.github.io) with all associated code!*
