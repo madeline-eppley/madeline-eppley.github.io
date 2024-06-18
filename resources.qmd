@@ -1,5 +1,6 @@
 ---
 title: "Resources"
+image: "https://madeline-eppley.github.io/img/website_content.png"
 ---
 
 ### Personal Academic Websites
