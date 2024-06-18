@@ -2,28 +2,76 @@
 title: "Resources"
 ---
 
-## STEM Education Resources
-
-## Science Communication Resources
-
 ### Personal Academic Websites
 
-###### Choosing where to build and host your website
+##### Choosing where to build and host your website
 
-(@) **GitHub + Quarto Website**
-- Pros/Cons: I have used GitHub and Quarto to build this website! You need a GitHub account and some intermediate familiarity with coding in R to build your own. There is no cost to host your site, and you can host it on any custom domain that you may own. I have found that design functionality is extremely limited unless you are willing to custom-develop your own styles.css documents, which is time-consuming. Importantly, you can only host one GitHub pages site per account. 
+###### *GitHub + Quarto Website*
 
-- I have a tutorial on how to build your own Quarto website and host it on GitHub! Find it on my Coding page. To get started, Quarto also has a lot of information [here](https://quarto.org/docs/websites/).
+I have used GitHub and Quarto to build this website! You need a GitHub account and some intermediate familiarity with coding in R to build your own. There is no cost to host your site, and you can host it on any custom domain that you may own. I have found that design functionality is extremely limited unless you are willing to custom-develop your own styles.css documents, which is time-consuming. Importantly, you can only host one GitHub pages site per account. 
 
-(@) **Weebly** 
-- Pros/Cons: I have used Weebly to build my personal website! I really enjoyed the ease of use and multitude of design options with Weebly. It is free to host your website with a '.weebly.com' address, but you can also host on any custom domain that you may own. I purchased my custom domain through Weebly, and it was easy. There is a cost to remove banner ads at the bottom of your page, but they aren't too distracting if you want to keep it free. No coding experience required, but it is helpful to know how to insert custom .html to embed code and links. 
+I have a tutorial on how to build your own Quarto website and host it on GitHub! Find it on my Coding page. To get started, Quarto also has a lot of information [here](https://quarto.org/docs/websites/).
 
-- You can find my personal website on Weebly [here](https://www.madeline-eppley.com).
+###### *Weebly*
 
-(@) **Google Sites**
-- Pros/Cons: Google sites are free with a Google account and don't require any coding experience to build! My lab has a google-hosted website that I edit regularly, and I find it easy with great version-control to use as a review process before you publish. Your site is hosted on a 'sites.google.com/site/yourwebsitenamehere address', or you can use any custom domain that you may own. There is decent flexibility with design and they have pre-made templates that can get you started. I have heard that some algorithms may filter google sites out of web browser search results, but have not come across this issue (potentially because I use Chrome).
+I have used Weebly to build my personal website! I really enjoyed the ease of use and multitude of design options with Weebly. It is free to host your website with a '.weebly.com' address, but you can also host on any custom domain that you may own. I purchased my custom domain through Weebly, and it was easy. There is a cost to remove banner ads at the bottom of your page, but they aren't too distracting if you want to keep it free. No coding experience required, but it is helpful to know how to insert custom .html to embed code and links. 
 
-(@) **Other Hosting Options - Squarespace, Wix, WordPress**
-- Pros/Cons: I have not built websites with any other hosting service. I have peers that have successfully used Squarespace, Wix, and WordPress with mixed reviews. Most of these hosting services will require you to pay for a plan or to remove advertisements. You may also need to purchase a custom domain, but some, like WordPress, may allow you to host for free with a '.wordpress.com' address.   
+You can find my personal website on Weebly [here](https://www.madeline-eppley.com).
+
+###### *Google Sites*
+
+Google sites are free with a Google account and don't require any coding experience to build! My lab has a google-hosted website that I edit regularly, and I find it easy with great version-control to use as a review process before you publish. Your site is hosted on a 'sites.google.com/site/yourwebsitenamehere address', or you can use any custom domain that you may own. There is decent flexibility with design and they have pre-made templates that can get you started. I have heard that some algorithms may filter google sites out of web browser search results, but have not come across this issue (potentially because I use Chrome).
+
+###### *Other Hosting Options - Squarespace, Wix, WordPress*
+
+I have not built websites with any other hosting service. I have peers that have successfully used Squarespace, Wix, and WordPress with mixed reviews. Most of these hosting services will require you to pay for a plan or to remove advertisements. You may also need to purchase a custom domain, but some, like WordPress, may allow you to host for free with a '.wordpress.com' address.  
+
+##### Content for your Website
+Personal academic websites are a great tool for networking, sharing your research, and communicating science to general audiences. Think of your website as a digital repository of you as a scientist! 
+
+###### Best practices for website content
+
+- Always include links to publicly-accessible content wherever you can. *Example: You were in a working group that published a paper. The working group was established out of an academic society where you all met.* You should link (1) the academic society website AND (2) the DOI and direct link to an open-access paper OR (3) a link to directly download a .pdf of the paper.
+
+- Better yet, embed content directly into the site! *Example: You went to an academic conference and presented a poster.* You should (1) register your poster online through a service that makes it citable, like [figshare](https://knowledge.figshare.com/about) to link the DOI, AND (2) embed it directly on your website by uploading it as a high-quality .pdf, .png, or using a service that can be integrated into your website, like [SCRIBD](https://www.scribd.com/).
+
+- Present all material without scientific jargon and include as many interactive elements, photos, and links as you can.*Example: You developed an R Shiny app for visualizing an equation you use in your research.* You should (1) link your R Shiny app to your research page and explain why the equation is important to a scientific audience, AND (2) link the R Shiny app in your teaching or outreach page as a science communication opportunity! When you've developed multipurpose products and tools, they are worth sharing with multiple audiences in distinct ways.
+
+###### Categories of website content
+
+![](website_content.png){fig-alt="A drawing of an elephant."}
+
+*Communicating Science*
+
+- Outreach
+- Teaching
+- Blog
+- General Media (interviews, podcasts, science writing)
+- Social media accounts or feeds
+- Photos of you doing science!
+
+*Networking*
+
+- Affiliated programs, projects, and institutions
+- Email(s) or contact forms
+- CV and/or Resume
+- News
+- Positionality statement - who are YOU as a scientist?
+
+*Research*
+
+- Posters, publications, and recorded presentations, aka "accessible products"
+- Protocols, apps, or other interactive research elements
+- Plans for ongoing projects (a sneak peek into your current work)
+
+
+
 
 ## LGBTQIA+ in STEM Resources
+Coming soon!
+
+## STEM Education Resources
+Coming soon!
+
+## Science Communication Resources
+Coming soon!
