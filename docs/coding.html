@@ -61,6 +61,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="Madeline G. Eppley - Coding, GitHub, and Bioinformatics">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -139,9 +142,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#environmental-data" id="toc-environmental-data" class="nav-link active" data-scroll-target="#environmental-data">Environmental Data</a></li>
-  <li><a href="#creating-a-quarto-website-with-github" id="toc-creating-a-quarto-website-with-github" class="nav-link" data-scroll-target="#creating-a-quarto-website-with-github">Creating a Quarto Website with GitHub</a></li>
+  <li><a href="#creating-a-quarto-website-with-github" id="toc-creating-a-quarto-website-with-github" class="nav-link active" data-scroll-target="#creating-a-quarto-website-with-github">Creating a Quarto Website with GitHub</a></li>
   <li><a href="#population-genomics" id="toc-population-genomics" class="nav-link" data-scroll-target="#population-genomics">Population Genomics</a></li>
+  <li><a href="#environmental-data" id="toc-environmental-data" class="nav-link" data-scroll-target="#environmental-data">Environmental Data</a></li>
   </ul>
 </nav>
     </div>
@@ -166,10 +169,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Here I have tutorials for coding, example outputs, and best data practices that I’ve developed through some of my PhD-related computational research.</p>
-<section id="environmental-data" class="level2">
-<h2 class="anchored" data-anchor-id="environmental-data">Environmental Data</h2>
-<p>Coming soon!</p>
-</section>
 <section id="creating-a-quarto-website-with-github" class="level2">
 <h2 class="anchored" data-anchor-id="creating-a-quarto-website-with-github">Creating a Quarto Website with GitHub</h2>
 <p><strong>Before getting started, you need (1) a GitHub account, (2) RStudio on your local machine, (3) GitHub desktop or Terminal, and (4) Quarto.</strong> I will complete this tutorial using GitHub Desktop, as I think it is easier to learn for those with less coding familiarity.</p>
@@ -179,29 +178,29 @@ ul.task-list li input[type="checkbox"] {
 <li>In GitHub, create a new repository with the domain name that you would like for your website. For example, my repository name is ‘madeline-eppley’, so my website will be named ‘madeline-eppley.github.io’.</li>
 <li>In GitHub Desktop, choose “Add Existing Repository” and paste the clone url. Alternatively, you can open the repository in GitHub, then select “Open with GitHub Desktop”. If you’re using the terminal, you can clone the repository with <code>gh repo clone repo-name/repo-name.github.io</code>.</li>
 <li>If this was your first time linking a repository through GitHub Desktop, by default, GitHub Desktop will create a local folder named “GitHub” in your Documents folder (on a Mac) and place your repository there. I moved this folder into my regular user space, but you can store it anywhere you like. If you’ve already set up GitHub Desktop, your new repository will be linked in the previously created folder. Locate your local repository folder.</li>
-<li>In your local R Studio, initialize a new Quarto project with “New Project” and select “Quarto Website”. Then, provide the directory name as your local repository folder. You should now see a basic index.qmd and _quarto.yml file in your directory.</li>
-<li>Open your _quarto.yml file and add <code>output-dir: docs</code> directly under the type: website line. Save the edit.</li>
-<li>Make a test edit to the index.qmd file and then check “Render on Save”. This will open up a locally-hosted browser where you can preview your edits. If everything looks good, you can select “Render” and will have auto-generated .html files appear in a new /docs folder within the repository folder.</li>
+<li>In your local R Studio, initialize a new Quarto project with “New Project” and select “Quarto Website”. Then, provide the directory name as your local repository folder. You should now see a basic <code>index.qmd</code> and <code>_quarto.yml</code> file in your directory.</li>
+<li>Open your <code>_quarto.yml</code> file and add <code>output-dir: docs</code> directly under the type: website line. Save the edit.</li>
+<li>Make a test edit to the <code>index.qmd</code> file and then check “Render on Save”. This will open up a locally-hosted browser where you can preview your edits. If everything looks good, you can select “Render” and will have auto-generated .html files appear in a new <code>/docs</code> folder within the repository folder.</li>
 <li>Test the setup by committing these new files to GitHub through GitHub desktop. You should then see your new setup files on GitHub.</li>
 </ol>
 </section>
 <section id="rendering-the-website" class="level5">
 <h5 class="anchored" data-anchor-id="rendering-the-website">Rendering the Website</h5>
 <ol start="8" class="example" type="1">
-<li>Go to “Settings” in GitHub and scroll down to Pages. There, select Source “Deploy from a branch” and edit the branch so that it renders from the /docs folder in the main branch. The folder that you select should be where your .html files are stored, so do NOT move your .html files out of the /docs folder.</li>
+<li>Go to “Settings” in GitHub and scroll down to Pages. There, select Source “Deploy from a branch” and edit the branch so that it renders from the <code>/docs</code> folder in the main branch. The folder that you select should be where your .html files are stored, so after this point, do NOT move your .html files out of the <code>/docs</code> folder.</li>
 <li>At this point, GitHub will begin automatically rendering your site. Under the “Actions” tab, you can check the build and deployment status.</li>
 <li>When it completes, you can return to Settings/Pages and see that your site will be live at ‘your-repo-title.github.io’. Now you can visit your site!</li>
 </ol>
 </section>
 <section id="editing-your-website-structure" class="level5">
 <h5 class="anchored" data-anchor-id="editing-your-website-structure">Editing your Website Structure</h5>
-<p>Quarto websites are designed to host structure within the _quarto.yml file. Here, you establish your website format, image folders, style, font design, header and footer, and order of the pages. You can check out my <a href="https://github.com/madeline-eppley/madeline-eppley.github.io">_quarto.yml</a> file in my repo for inspiration!</p>
-<p>Your index.qmd file is your first “page” and is the home screen of your website. You can add new pages at any time by adding a new .qmd file in GitHub. Each time you add a new element of “structure” (eg. a new page), you need to update the _quarto.yml file to add this file.</p>
+<p>Quarto websites are designed to host structure within the <code>_quarto.yml</code> file. Here, you establish your website format, image folders, style, font design, header and footer, and order of the pages. You can check out my <a href="https://github.com/madeline-eppley/madeline-eppley.github.io">_quarto.yml</a> file in my repo for inspiration!</p>
+<p>Your <code>index.qmd</code> file is your first “page” and is the home screen of your website. You can add new pages at any time by adding a new .qmd file in GitHub. Each time you add a new element of “structure” (eg. a new page), you need to update the <code>_quarto.yml</code> file to add this file.</p>
 <p>I typically edit my pages locally in RStudio, but it is also possible to edit them within GitHub. <a href="https://quarto.org/docs/authoring/markdown-basics.html">Standard R markdown formatting</a> also applies to .qmd files. Wherever you edit, be sure to use GitHub desktop or git to push and pull your edits. Whenever you’re ready to publish your new edits, you need to return to your local RStudio and “Render” your edited file. This step is important because it re-generates your .html file, which is what is actually used to build the website. To save myself the hassle of remembering this step, I enable “Render on Save” for all of my pages within RStudio.</p>
 </section>
 <section id="adding-images-to-your-website" class="level5">
 <h5 class="anchored" data-anchor-id="adding-images-to-your-website">Adding Images to your Website</h5>
-<p>Coming soon!</p>
+<p>You can add as many images to your Quarto website as you’d like! The first step is to set up your resources folder in your <code>_quarto.yml</code> file. Add <code>resources: "/img"</code> under the <code>project:</code> section at the top of the file. Next, add a high-quality (I suggest .png format) image to your <code>/img</code> folder and title it something intuitive (e.g.&nbsp;‘profile_pic.png’). To add any image in-text, add <code>![](img/image_name.png){fig-alt="Add your caption here"}</code> to your .qmd file. There are several methods to adjust image size, caption font size, etc. that you can learn more about on the <a href="https://quarto.org/docs/authoring/figures.html">Quarto website</a>.</p>
 </section>
 <section id="styles-icons-fonts-and-colors" class="level5">
 <h5 class="anchored" data-anchor-id="styles-icons-fonts-and-colors">Styles, Icons, Fonts, and Colors</h5>
@@ -217,6 +216,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Population Differentiation (Fst) analysis</li>
 <li>Effective Population Size (Ne)</li>
 </ul>
+</section>
+<section id="environmental-data" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-data">Environmental Data</h2>
+<p>Coming soon!</p>
 
 
 </section>

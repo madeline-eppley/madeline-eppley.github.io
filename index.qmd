@@ -20,7 +20,7 @@ Howdy! I'm Madeline, welcome to my website. I'm currently pursuing a PhD in Mari
 
 This site largely contains a digital repository of my work, including lab notebooks, code and outputs, and resource lists I've developed. You can find out more about me on [my main website and blog here](https://www.madeline-eppley.com).
 
-Why two websites? Here, I enjoy functionality with GitHub and R markdown files that allow me to write and post code tutorials and lab protocols of relevance to the scientific community. On my personal website, I enjoy more flexible design functionality and ability to host a casual blog that make for better communication with general audiences. I prioritize both, so I have two websites!  
+Why two websites? Here, I enjoy functionality with GitHub and R markdown files that allow me to write code tutorials and lab protocols of relevance to the scientific community. On my personal website, I enjoy more flexible design functionality and ability to host a casual blog for better communication with general audiences. I prioritize both, so I have two websites!  
 
 *I made this website with [Quarto](https://quarto.org/docs/websites) and published with [GitHub pages](https://pages.github.com/). Check out my associated [GitHub repository](https://github.com/madeline-eppley/madeline-eppley.github.io) with all associated code!*
 
