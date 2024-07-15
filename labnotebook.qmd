@@ -4,9 +4,57 @@ title: "Lab Notebook"
 
 ## Lab Notebook
 
-I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, PicoGreen Assays, gel electrophoresis, qPCR, and DNA isolation from tissues preserved in FFPE material.
+I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, DNA quantification (PicoGreen Assays, gel electrophoresis), qPCR, ImageJ, building apps, and DNA isolation from tissues preserved in FFPE material.
 
-## Eastern Oyster DNA Plate Extractions
+## ImageJ & Mapping Oyster Shells
+
+I am mapping the prevalence of Polydora sp. worm blisters in eastern oyster shells to determine if populations across the range may adapt differently to parasitism. This tutorial provides basic guidance for taking high-quality images, identifying polydora worm blisters, and using ImageJ to calculate total area of infection.
+
+##### Taking high-quality images
+
+##### **Equipment** {.unnumbered}
+
+-   3-4 Black-colored beanbags, ideally with sand or small particles
+
+-   DSLR camera or digital camera with tripod attachment (an iPhone camera may also work if it focuses clearly on nearby objects)
+
+-   Camera stand or tripod set-up that allows the camera to point directly down
+
+-   Level table in a space with consistent, bright, indoor lighting - NO windows or natural light is ideal
+
+-   Color scale card
+
+-   An object of known invariable length (we use the length of 1 square in the color scale card)
+
+
+::: {.callout-important}
+## Scale + Level
+It's crucial that all images of your study organism are taken at the same scale and are level. Any differences in the height of the object to the camera will translate into measurement differences in ImageJ. For this reason, use a level surface and do not vary the height of the tripod and camera. Keep all objects in the frame on the same level across all images. 
+
+Tips: 
+- If possible, do not move the tripod setup until all imaging is complete to avoid micro-differences in camera adjustment. 
+- Use clay, beanbags, sandbags, etc. to support each object on a level plane. Do not change the height of the supportive materials (e.g. do not vary the number of beanbags). 
+:::
+
+
+## FFPE Tissue DNA Isolation
+
+##### Sterilization of FFPE workspace
+FFPE tissue blocks must be sliced thinly with a microtome prior to DNA extraction. We use a combination of histological ethanol (75-90% concentration), RNase Away, and a dry brush to clean the microtome workspace. In between samples, all slicing blades should be soaked in ethanol, and RNase Away can be sprayed onto the microtome slicing plate for additional sterilization on sharp components/hard to reach areas. The benchtop can be sterilized with histological ethanol and bleach. Every few samples, use a dry brush to swipe the excess trimmed FFPE material off of the machine and into the trash. 
+
+##### Storing FFPE tissue
+FFPE tissue is generally stable at cool/room temperature in shaded storage cabinets. As with any preservation method, DNA in FFPE blocks will continue to degrade with time, and more rapidly under less ideal temperature and light conditions. Paraffin subjected to high heat (~120 F or greater) will melt. Research shows some trade offs between FFPE-preserved tissue DNA degradation and future ability of DNA to be amplified in qPCR/PCR based on storage temperature conditions [Groelz et al 2018](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203608).  
+
+##### Shipping considerations
+I use [Eppendorf LoBind 1.5 ml centrifuge tubes](https://www.eppendorf.com/us-en/eShop-Products/Laboratory-Consumables/Tubes/DNA-LoBind-Tubes-p-PF-56252) to reduce the extent of sample binding to the plastic tube. These tubes may also help to reduce static that makes it difficult to place sliced tissue in the tube. In the case that you are shipping FFPE samples to a clean lab space for extraction, avoid shipping during extreme high or low temperatures and opt to ship as quickly as possible (e.g. overnight, priority next-day, etc.)
+
+
+## qPCR
+
+I am currently developing protocols for this, check back soon!
+
+
+## DNA Extractions: Oysters & Fish
 
 Notes on this protocol coming soon! 
 
@@ -14,18 +62,9 @@ Notes on this protocol coming soon!
 
 Notes on this protocol coming soon!
 
-## PicoGreen Assays
 
-Notes on this protocol coming soon!
+## DNA Quantification: PicoGreen Assays and Gel Electrophoresis
 
-## Gel Electrophoresis
+Notes on these protocols coming soon!
 
 We run 2% agarose gels with GelRed to visualize genomic DNA >3k base pairs. More on this soon!
-
-## qPCR
-
-I am currently developing protocols for this, check back soon!
-
-## FFPE Tissue DNA Isolation
-
-I am currently developing protocols for this, check back soon!
