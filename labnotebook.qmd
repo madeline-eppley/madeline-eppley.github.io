@@ -2,39 +2,86 @@
 title: "Lab Notebook"
 ---
 
-## Lab Notebook
+# Lab Notebook
 
 I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, DNA quantification (PicoGreen Assays, gel electrophoresis), qPCR, ImageJ, building apps, and DNA isolation from tissues preserved in FFPE material.
 
 ## ImageJ & Mapping Oyster Shells
 
-I am mapping the prevalence of Polydora sp. worm blisters in eastern oyster shells to determine if populations across the range may adapt differently to parasitism. This tutorial provides basic guidance for taking high-quality images, identifying polydora worm blisters, and using ImageJ to calculate total area of infection.
-
-##### Taking high-quality images
+I am mapping the prevalence of Polydora spp. worm blisters in eastern oyster shells to determine if populations across the range may adapt differently to parasitism. This tutorial provides basic guidance for taking high-quality images, identifying polydora worm blisters, and using ImageJ to calculate total area of infection.
 
 ##### **Equipment** {.unnumbered}
 
--   3-4 Black-colored beanbags, ideally with sand or small particles
+-   3-4 black beanbags, ideally with sand or small particles
 
--   DSLR camera or digital camera with tripod attachment (an iPhone camera may also work if it focuses clearly on nearby objects)
+-   DSLR camera or digital camera with tripod attachment. An iPhone camera may work if it focuses on very close objects.
 
--   Camera stand or tripod set-up that allows the camera to point directly down
+-   Camera stand or tripod set-up that allows the camera to point directly down with no angle
 
--   Level table in a space with consistent, bright, indoor lighting - NO windows or natural light is ideal
+-   Level table in a room with consistent, bright, indoor lighting - NO windows or natural light is ideal
 
--   Color scale card
+-   Color scale swatch card
 
--   An object of known invariable length (we use the length of 1 square in the color scale card)
+-   An object of known invariable length (we use the length of a square in our color scale swatch card)
 
+-   A computer to run the freely-available [ImageJ software](https://imagej.net/software/imagej/)
+
+-   A spreadsheet or app to collect data in
+
+
+::: {.callout}
+## Very helpful but not required materials {.unnumbered}
+
+-   A tablet or computer with touch screen and a stylus
+
+-   Computer mouse (instead of laptop trackpad)
+
+-   Large external hard drive to store image backups. It is easy to generate several hundred images doing this protocol!
+:::
+
+##### Taking high-quality images
+The first step in the protocol is to take high-quality images of each shell. We photograph both valves together in one image. We also include a label with the ID number of the individual in the image for easy reference and a color scale card to ensure the color balance is consistent across images.
 
 ::: {.callout-important}
 ## Scale + Level
-It's crucial that all images of your study organism are taken at the same scale and are level. Any differences in the height of the object to the camera will translate into measurement differences in ImageJ. For this reason, use a level surface and do not vary the height of the tripod and camera. Keep all objects in the frame on the same level across all images. 
+It's crucial that all images of your study organism are taken at the same scale and are level. Any differences in the height of the object to the camera will translate into measurement differences in ImageJ. For this reason, use a level surface and do not vary the height of the tripod and camera. Keep all objects in the frame consistent in their distance to the camera lens across all images. 
 
-Tips: 
-- If possible, do not move the tripod setup until all imaging is complete to avoid micro-differences in camera adjustment. 
-- Use clay, beanbags, sandbags, etc. to support each object on a level plane. Do not change the height of the supportive materials (e.g. do not vary the number of beanbags). 
+Tips: If possible, do not move the tripod setup until all imaging is complete to avoid micro-differences in camera adjustment. Use clay, beanbags, sandbags, etc. to support each object on a level plane. Do not change the height of the supportive materials (e.g. do not vary the number of beanbags). 
 :::
+
+##### **Photograph Protocol** 
+1. Attach camera to tripod setup. Focus the camera and take a trial image to test lighting. 
+
+2. Remove the oyster shell and tag from the bag. 
+
+3. Stabilize the shells on top of black beanbags to ensure they sit parallel to the table and about ~5-6 inches below the camera lens. 
+
+4. Focus the camera and take a few images with both shells, ID tag, and the color swatch in the frame. Make micro-adjustments in between images if necessary to ensure there is no glare on the shells. 
+
+![](img/1_polydora_frame_example.png)
+
+5. Upload the images from the camera into a folder on the computer that will use the ImageJ software.Label the folder based on population info (ID_Site_CollectionDate). Name each of the images a unique name (We use SG_XXXX_PD for seascape genomics, individual #, PolyDora).
+
+::: {.callout-note}
+## Collecting Data
+We collected our data using an app designed with AppSheet and linked to two Google Sheets - one for whole oyster measurements, and one for individual blister measurements. From this point on, if you are not using an app, record your data in whichever spreadsheet(s) you are collecting measurements in, we will refer to "app" as the data collection location. 
+:::
+
+6. Upload the full color image of each individual into the app under the Image_valves_full_color field. 
+
+7. Input TRUE or FALSE for Infection_status based on the individual. If there is at least one blister, the infection status is TRUE.
+
+8. Upload the full color image to ImageJ twice.
+
+9. Convert one of the images to 8-bit (Image->Type->8-bit) greyscale for color comparison. 
+
+10. Set the measurement scale by using the linear selection tool to draw a diagonal line across a square on the color swatch. This is our scale object of known invariable length. Select  “Analyze” then “set scale” and add the length of the diagonal line in the “known distance” text box and the unit in the “unit of length” text box. 
+
+![](img/2_polydora_scale_example.png)
+
+11. Measure the area of each of the valves. Use the free draw selection tool to select the entire area of each value with the stylus, then press “m” to get the area. Enter the data into the app. 
+
+![](img/3_polydora_measurement_example.png)
 
 
 ## FFPE Tissue DNA Isolation

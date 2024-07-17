@@ -63,7 +63,8 @@ ul.task-list li input[type="checkbox"] {
 
 <meta name="twitter:title" content="Madeline G. Eppley - Lab Notebook">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="img/1_polydora_frame_example.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -142,12 +143,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lab-notebook" id="toc-lab-notebook" class="nav-link active" data-scroll-target="#lab-notebook">Lab Notebook</a></li>
+  <li><a href="#lab-notebook" id="toc-lab-notebook" class="nav-link active" data-scroll-target="#lab-notebook">Lab Notebook</a>
+  <ul class="collapse">
   <li><a href="#imagej-mapping-oyster-shells" id="toc-imagej-mapping-oyster-shells" class="nav-link" data-scroll-target="#imagej-mapping-oyster-shells">ImageJ &amp; Mapping Oyster Shells</a></li>
   <li><a href="#ffpe-tissue-dna-isolation" id="toc-ffpe-tissue-dna-isolation" class="nav-link" data-scroll-target="#ffpe-tissue-dna-isolation">FFPE Tissue DNA Isolation</a></li>
   <li><a href="#qpcr" id="toc-qpcr" class="nav-link" data-scroll-target="#qpcr">qPCR</a></li>
   <li><a href="#dna-extractions-oysters-fish" id="toc-dna-extractions-oysters-fish" class="nav-link" data-scroll-target="#dna-extractions-oysters-fish">DNA Extractions: Oysters &amp; Fish</a></li>
   <li><a href="#dna-quantification-picogreen-assays-and-gel-electrophoresis" id="toc-dna-quantification-picogreen-assays-and-gel-electrophoresis" class="nav-link" data-scroll-target="#dna-quantification-picogreen-assays-and-gel-electrophoresis">DNA Quantification: PicoGreen Assays and Gel Electrophoresis</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -171,26 +174,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="lab-notebook" class="level2">
-<h2 class="anchored" data-anchor-id="lab-notebook">Lab Notebook</h2>
+<section id="lab-notebook" class="level1">
+<h1>Lab Notebook</h1>
 <p>I am currently a PhD student conducting research on eastern oysters and their associated micro and macro-parasites. My lab notebook includes topics such as DNA plate extractions, DNA quantification (PicoGreen Assays, gel electrophoresis), qPCR, ImageJ, building apps, and DNA isolation from tissues preserved in FFPE material.</p>
-</section>
 <section id="imagej-mapping-oyster-shells" class="level2">
 <h2 class="anchored" data-anchor-id="imagej-mapping-oyster-shells">ImageJ &amp; Mapping Oyster Shells</h2>
-<p>I am mapping the prevalence of Polydora sp. worm blisters in eastern oyster shells to determine if populations across the range may adapt differently to parasitism. This tutorial provides basic guidance for taking high-quality images, identifying polydora worm blisters, and using ImageJ to calculate total area of infection.</p>
-<section id="taking-high-quality-images" class="level5">
-<h5 class="anchored" data-anchor-id="taking-high-quality-images">Taking high-quality images</h5>
-</section>
+<p>I am mapping the prevalence of Polydora spp. worm blisters in eastern oyster shells to determine if populations across the range may adapt differently to parasitism. This tutorial provides basic guidance for taking high-quality images, identifying polydora worm blisters, and using ImageJ to calculate total area of infection.</p>
 <section id="equipment" class="level5 unnumbered">
 <h5 class="unnumbered anchored" data-anchor-id="equipment"><strong>Equipment</strong></h5>
 <ul>
-<li><p>3-4 Black-colored beanbags, ideally with sand or small particles</p></li>
-<li><p>DSLR camera or digital camera with tripod attachment (an iPhone camera may also work if it focuses clearly on nearby objects)</p></li>
-<li><p>Camera stand or tripod set-up that allows the camera to point directly down</p></li>
-<li><p>Level table in a space with consistent, bright, indoor lighting - NO windows or natural light is ideal</p></li>
-<li><p>Color scale card</p></li>
-<li><p>An object of known invariable length (we use the length of 1 square in the color scale card)</p></li>
+<li><p>3-4 black beanbags, ideally with sand or small particles</p></li>
+<li><p>DSLR camera or digital camera with tripod attachment. An iPhone camera may work if it focuses on very close objects.</p></li>
+<li><p>Camera stand or tripod set-up that allows the camera to point directly down with no angle</p></li>
+<li><p>Level table in a room with consistent, bright, indoor lighting - NO windows or natural light is ideal</p></li>
+<li><p>Color scale swatch card</p></li>
+<li><p>An object of known invariable length (we use the length of a square in our color scale swatch card)</p></li>
+<li><p>A computer to run the freely-available <a href="https://imagej.net/software/imagej/">ImageJ software</a></p></li>
+<li><p>A spreadsheet or app to collect data in</p></li>
 </ul>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Very helpful but not required materials
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>A tablet or computer with touch screen and a stylus</p></li>
+<li><p>Computer mouse (instead of laptop trackpad)</p></li>
+<li><p>Large external hard drive to store image backups. It is easy to generate several hundred images doing this protocol!</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="taking-high-quality-images" class="level5">
+<h5 class="anchored" data-anchor-id="taking-high-quality-images">Taking high-quality images</h5>
+<p>The first step in the protocol is to take high-quality images of each shell. We photograph both valves together in one image. We also include a label with the ID number of the individual in the image for easy reference and a color scale card to ensure the color balance is consistent across images.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -201,10 +223,48 @@ Scale + Level
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>It’s crucial that all images of your study organism are taken at the same scale and are level. Any differences in the height of the object to the camera will translate into measurement differences in ImageJ. For this reason, use a level surface and do not vary the height of the tripod and camera. Keep all objects in the frame on the same level across all images.</p>
-<p>Tips: - If possible, do not move the tripod setup until all imaging is complete to avoid micro-differences in camera adjustment. - Use clay, beanbags, sandbags, etc. to support each object on a level plane. Do not change the height of the supportive materials (e.g.&nbsp;do not vary the number of beanbags).</p>
+<p>It’s crucial that all images of your study organism are taken at the same scale and are level. Any differences in the height of the object to the camera will translate into measurement differences in ImageJ. For this reason, use a level surface and do not vary the height of the tripod and camera. Keep all objects in the frame consistent in their distance to the camera lens across all images.</p>
+<p>Tips: If possible, do not move the tripod setup until all imaging is complete to avoid micro-differences in camera adjustment. Use clay, beanbags, sandbags, etc. to support each object on a level plane. Do not change the height of the supportive materials (e.g.&nbsp;do not vary the number of beanbags).</p>
 </div>
 </div>
+</section>
+<section id="photograph-protocol" class="level5">
+<h5 class="anchored" data-anchor-id="photograph-protocol"><strong>Photograph Protocol</strong></h5>
+<ol type="1">
+<li><p>Attach camera to tripod setup. Focus the camera and take a trial image to test lighting.</p></li>
+<li><p>Remove the oyster shell and tag from the bag.</p></li>
+<li><p>Stabilize the shells on top of black beanbags to ensure they sit parallel to the table and about ~5-6 inches below the camera lens.</p></li>
+<li><p>Focus the camera and take a few images with both shells, ID tag, and the color swatch in the frame. Make micro-adjustments in between images if necessary to ensure there is no glare on the shells.</p></li>
+</ol>
+<p><img src="img/1_polydora_frame_example.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li>Upload the images from the camera into a folder on the computer that will use the ImageJ software.Label the folder based on population info (ID_Site_CollectionDate). Name each of the images a unique name (We use SG_XXXX_PD for seascape genomics, individual #, PolyDora).</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Collecting Data
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We collected our data using an app designed with AppSheet and linked to two Google Sheets - one for whole oyster measurements, and one for individual blister measurements. From this point on, if you are not using an app, record your data in whichever spreadsheet(s) you are collecting measurements in, we will refer to “app” as the data collection location.</p>
+</div>
+</div>
+<ol start="6" type="1">
+<li><p>Upload the full color image of each individual into the app under the Image_valves_full_color field.</p></li>
+<li><p>Input TRUE or FALSE for Infection_status based on the individual. If there is at least one blister, the infection status is TRUE.</p></li>
+<li><p>Upload the full color image to ImageJ twice.</p></li>
+<li><p>Convert one of the images to 8-bit (Image-&gt;Type-&gt;8-bit) greyscale for color comparison.</p></li>
+<li><p>Set the measurement scale by using the linear selection tool to draw a diagonal line across a square on the color swatch. This is our scale object of known invariable length. Select “Analyze” then “set scale” and add the length of the diagonal line in the “known distance” text box and the unit in the “unit of length” text box.</p></li>
+</ol>
+<p><img src="img/2_polydora_scale_example.png" class="img-fluid"></p>
+<ol start="11" type="1">
+<li>Measure the area of each of the valves. Use the free draw selection tool to select the entire area of each value with the stylus, then press “m” to get the area. Enter the data into the app.</li>
+</ol>
+<p><img src="img/3_polydora_measurement_example.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="ffpe-tissue-dna-isolation" class="level2">
@@ -240,6 +300,7 @@ Scale + Level
 <p>We run 2% agarose gels with GelRed to visualize genomic DNA &gt;3k base pairs. More on this soon!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
