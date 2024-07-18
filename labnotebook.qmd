@@ -5,6 +5,7 @@ title: "Lab Notebook"
 I am currently a PhD student conducting research on eastern oysters and their associated parasites. My lab notebook includes topics such as DNA plate extractions, DNA quantification such as picogreen assays and gel electrophoresis, qPCR, ImageJ, using apps for data collection, and DNA isolation from tissues preserved in FFPE material.
 
 ## ImageJ & Mapping Oyster Shells
+##### Co-authored by Lisa Gouralnik (Summer 2024 Intern)
 Few studies have investigated how abiotic, biotic, and genetic conditions impact infestation rates of parasites on wild oysters range-wide. I aim to quantify spatial patterns of macroparasite infestation across the seascape and determine whether these patterns correlate with environmental factors (temperature, salinity, co-occurring parasitic infestations) or population genetics. To achieve this, I am mapping the prevalence of parasitic *Polydora* worm blisters in eastern oyster shells. 
 
 This tutorial provides basic guidance for taking high-quality images, identifying polydora worm blisters, and using ImageJ to calculate total area of blister infection.
