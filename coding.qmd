@@ -4,7 +4,7 @@ title: "Coding, GitHub, and Bioinformatics"
 
 Here I have tutorials for coding, example outputs, and best data practices that I've developed through some of my PhD-related computational research. 
 
-## Creating a Quarto Website with GitHub
+# Creating a Quarto Website with GitHub
 **Before getting started, you need (1) a GitHub account, (2) RStudio on your local machine, (3) GitHub desktop or Terminal, and (4) Quarto.**
 I will complete this tutorial using GitHub Desktop, as I think it is easier to learn for those with less coding familiarity. 
 
@@ -36,13 +36,13 @@ You can add as many images to your Quarto website as you'd like! The first step 
 Coming soon!
 
 
-## Population Genomics
-### Imputing SNP Datasets
+# Population Genomics
+## Imputing SNP Datasets
 
-## Why impute? 
+### Why impute? 
 When you receive genotype data from the sequencing facility it will be incomplete. That is, each individual will be missing some genotype calls at SNPs. However, many downstream analyses require complete data. If you reduce your data to just complete SNPs for all individuals you'll likely end up with a very small number of useable SNPs. For example, the seascape oysters from the CviMVP project were returned from the sequencing facility with 194k SNPs, but only 14k of those are complete across all individuals. We definitely don't want to reduce our data by that amount! So, we impute data using methods that calculate the most frequent genotype at each SNP for a designated group of samples (typically by ancestral groups) or across all individuals. 
 
-## Recommended pre-reading
+### Recommended pre-reading
 Before starting the SNP imputation and filtering process, I recommend reading the following:
 
 1. [LEA 3: Factor models in population genetics and ecological genomics with R](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13366), Gain et al 2021 
@@ -53,13 +53,13 @@ Before starting the SNP imputation and filtering process, I recommend reading th
 
 If you're short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation. 
 
-## LEA and `impute()`
+### LEA and `impute()`
 We will be using the impute() function in the LEA package to impute our missing genotypes with the output of an snmf object (.lfmm file). The function takes the following arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). The imputation works by using ancestry and genotype frequency estimates from an snmf run and using the mode for each genotype within the assigned ancestral group. the method of imputation is either set to mode or random. With "random", imputation is performed by using the genotype probabilities. With "mode", the most likely genotype is used for matrix completion. Since LEA is imputing using a K = n specified number of ancestral groups, it can potentially introduce structure into the dataset. If you are concerned about this potential introduction of structure, compare Fst values pre- and post- imputation (using a complete set of filtered SNPs for the 'pre-imputation' SNP set). 
 
-## Full vs thinned SNP sets
+### Full vs thinned SNP sets
 It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses. Your full SNP set will be all SNPs that are retained after filtering for missingness and MAF and imputed. Your thinned SNP set will be a subsetted version of the full SNP set that removes SNPs in LD. Generally, you want to use a full SNP set for detecing selection and functional loci detection (e.g. gene ontology), and use a thinned SNP set for population structure (e.g. PCA, ancestry/structure).  
 
-## General imputation workflow
+### General imputation workflow
 1. Transfer your data into a genotype matrix format. We have developed code for extracting genotype values from a VCF using the `extract.gt()` function (see [Preparing SNP matrix](https://drk-lo.github.io/lotterhoslabprotocols/code_imputation.html#preparing-your-snp-matrix) section below).  
 2. Filter for missing data. This typically includes: removing low-quality calls (often done by the sequencing facility, but double-check), removing individuals with >10% missing data across all loci, and removing SNPs with >10% missing data across all individuals. 
 3. Filter for minor allele frequency (MAF)
@@ -69,10 +69,10 @@ It is important to understand what type of SNPs you want to retain in your datas
   i. THIS STEP PRODUCES YOUR THINNED SNP DATASET
 
 
-## Step 1: Preparing your SNP matrix
+### Step 1: Preparing your SNP matrix
 To prepare to use the `impute()` function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you're starting with a VCF file of genotypes from the sequencing facility, use the `extract.gt()` function to extract the genotype values into a data frame from the VCF. For an example on how to do this, ask for access to the `genotypes_experimental.R` script that was used for the Cvi MVP H2F project. 
 
-## Step 2: Filter for missing data
+### Step 2: Filter for missing data
 The threshold of missing data can change depending on your dataset. For our Cvi MVP samples, we decided to use a 10% missingness threshold (e.g. any individual or loci that has more than 10% missing data across the entire data set will be removed). Here in this example, our SNP matrix is called `exp_ordered` and contains sequenced individuals in rows, SNPs in columns. We detect 2.9k SNPs that are above the threshold of 0.10 and remove them, producing a reduced data frame called `exp_cleaned_columns`. The same is repeated with the rows, but no individuals are detected that exceed the missingness threshold (yay, good data!). We also have a separate mutations dataframe that stores some functional annotations of the SNPs, so I also subset that `muts_filtered` to produce an equal number of retained SNPs as my genotype matrix. 
 
 ```
@@ -99,7 +99,7 @@ muts_filtered <- muts[snp_missing_prop <= missing_threshold, ]
 dim(muts_filtered) #191994 SNPs
 ```
 
-## Step 3: Filter for MAF
+### Step 3: Filter for MAF
 This step shows how to filter for MAF. Our genotype matrix `exp_cleaned_columns_sort` has been filtered for missingness and now sorted to have the rows and columns in the exact same order as our mutation matrix and individual matrix. We use a custom function to calculate the allele frequency (af) within each column, and then apply that custom function to each column in the genotype matrix. The `maf_threshold` can be set to whatever threshold you'd like for your data, here we use 0.05, meaning SNPs that appear in less than 5% of individuals are filtered out. These are "minor alleles" and because of their rarity across the dataset, could bias population estimates. Once we complete this filtering, we are left with n = 154k SNPs, and this will be the dataset that we impute. 
 
 ```
@@ -131,7 +131,7 @@ dim(muts_maf_filtered) #154609 SNPs
 saveRDS(muts_maf_filtered, file = "merged_data/genotypes/20250203_FULLmuts_exp.rds")
 ```
 
-## Step 4: Imputing and producing the full SNP set
+### Step 4: Imputing and producing the full SNP set
 Here we have our filtered SNP matrix called `GEN_filtered`. This matrix has been filtered for MAF and missingness and contains 154k SNPs. In this example, we impute for a value of K = 2.
 
 ```
@@ -150,7 +150,7 @@ GEN_imputed <- as.data.frame(read.table("merged_data/genotypes/20250203_genotype
 saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set
 ```
 
-## Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set 
+### Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set 
 Here, we read in the thinned SNP set and use the `bigsnpr` and `bigstatsr` packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of `thr.r2 = 0.2`, but this can be explored for your data.  
 
 ```
@@ -176,11 +176,11 @@ gen_filtered_subset <- GEN_imputed[, thinned_snps] # subset the full imputed dat
 saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THINNEDSNPs_exp.rds")
 ```
 
-## Other imputation methods
+### Other imputation methods
 I've tried several different imputation methods before deciding on using LEA. Since the rest of the scripting was done in R for the Cvi MVP project, we elected to use LEA for ease of use. However, other imputation methods, such as BEAGLE, snpStats, and bigsnpr are also often used in pop gen studies. I was unsuccessful with getting bigsnpr to work on our data, but it did sound promising. Here are my notes: 
 
 [bigsnpr](https://privefl.github.io/bigsnpr/reference/snp_fastImputeSimple.html) is good for large datasets and will already work with the genotype matrix in its current format. This method will reduce chances of introducing structure because it compares each individual with missing SNPs to a generated “reference panel” based on the input data.  It will automatically compute a reference panel based on the input genotype matrix, then each individual will be imputed based on the comparison to the reference panel. I assume it is averages across all inds in the dataset (“mean” type of approach) although you can specify method as well (mode, mean0, mean2, or random). It will output a new imputed genotype matrix in a .rds file format.
 
-## Environmental Data
+# Environmental Data
 
 Coming soon!

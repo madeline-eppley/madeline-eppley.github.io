@@ -145,8 +145,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#creating-a-quarto-website-with-github" id="toc-creating-a-quarto-website-with-github" class="nav-link active" data-scroll-target="#creating-a-quarto-website-with-github">Creating a Quarto Website with GitHub</a></li>
   <li><a href="#population-genomics" id="toc-population-genomics" class="nav-link" data-scroll-target="#population-genomics">Population Genomics</a>
   <ul class="collapse">
-  <li><a href="#imputing-snp-datasets" id="toc-imputing-snp-datasets" class="nav-link" data-scroll-target="#imputing-snp-datasets">Imputing SNP Datasets</a></li>
-  </ul></li>
+  <li><a href="#imputing-snp-datasets" id="toc-imputing-snp-datasets" class="nav-link" data-scroll-target="#imputing-snp-datasets">Imputing SNP Datasets</a>
+  <ul class="collapse">
   <li><a href="#why-impute" id="toc-why-impute" class="nav-link" data-scroll-target="#why-impute">Why impute?</a></li>
   <li><a href="#recommended-pre-reading" id="toc-recommended-pre-reading" class="nav-link" data-scroll-target="#recommended-pre-reading">Recommended pre-reading</a></li>
   <li><a href="#lea-and-impute" id="toc-lea-and-impute" class="nav-link" data-scroll-target="#lea-and-impute">LEA and <code>impute()</code></a></li>
@@ -158,6 +158,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#step-4-imputing-and-producing-the-full-snp-set" id="toc-step-4-imputing-and-producing-the-full-snp-set" class="nav-link" data-scroll-target="#step-4-imputing-and-producing-the-full-snp-set">Step 4: Imputing and producing the full SNP set</a></li>
   <li><a href="#step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" id="toc-step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="nav-link" data-scroll-target="#step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set</a></li>
   <li><a href="#other-imputation-methods" id="toc-other-imputation-methods" class="nav-link" data-scroll-target="#other-imputation-methods">Other imputation methods</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#environmental-data" id="toc-environmental-data" class="nav-link" data-scroll-target="#environmental-data">Environmental Data</a></li>
   </ul>
 </nav>
@@ -183,8 +185,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Here I have tutorials for coding, example outputs, and best data practices that I’ve developed through some of my PhD-related computational research.</p>
-<section id="creating-a-quarto-website-with-github" class="level2">
-<h2 class="anchored" data-anchor-id="creating-a-quarto-website-with-github">Creating a Quarto Website with GitHub</h2>
+<section id="creating-a-quarto-website-with-github" class="level1">
+<h1>Creating a Quarto Website with GitHub</h1>
 <p><strong>Before getting started, you need (1) a GitHub account, (2) RStudio on your local machine, (3) GitHub desktop or Terminal, and (4) Quarto.</strong> I will complete this tutorial using GitHub Desktop, as I think it is easier to learn for those with less coding familiarity.</p>
 <section id="initializing-the-website" class="level5">
 <h5 class="anchored" data-anchor-id="initializing-the-website">Initializing the website</h5>
@@ -221,18 +223,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Coming soon!</p>
 </section>
 </section>
-<section id="population-genomics" class="level2">
-<h2 class="anchored" data-anchor-id="population-genomics">Population Genomics</h2>
-<section id="imputing-snp-datasets" class="level3">
-<h3 class="anchored" data-anchor-id="imputing-snp-datasets">Imputing SNP Datasets</h3>
-</section>
-</section>
-<section id="why-impute" class="level2">
-<h2 class="anchored" data-anchor-id="why-impute">Why impute?</h2>
+<section id="population-genomics" class="level1">
+<h1>Population Genomics</h1>
+<section id="imputing-snp-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="imputing-snp-datasets">Imputing SNP Datasets</h2>
+<section id="why-impute" class="level3">
+<h3 class="anchored" data-anchor-id="why-impute">Why impute?</h3>
 <p>When you receive genotype data from the sequencing facility it will be incomplete. That is, each individual will be missing some genotype calls at SNPs. However, many downstream analyses require complete data. If you reduce your data to just complete SNPs for all individuals you’ll likely end up with a very small number of useable SNPs. For example, the seascape oysters from the CviMVP project were returned from the sequencing facility with 194k SNPs, but only 14k of those are complete across all individuals. We definitely don’t want to reduce our data by that amount! So, we impute data using methods that calculate the most frequent genotype at each SNP for a designated group of samples (typically by ancestral groups) or across all individuals.</p>
 </section>
-<section id="recommended-pre-reading" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-pre-reading">Recommended pre-reading</h2>
+<section id="recommended-pre-reading" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-pre-reading">Recommended pre-reading</h3>
 <p>Before starting the SNP imputation and filtering process, I recommend reading the following:</p>
 <ol type="1">
 <li><p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13366">LEA 3: Factor models in population genetics and ecological genomics with R</a>, Gain et al 2021</p></li>
@@ -241,16 +241,16 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>If you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.</p>
 </section>
-<section id="lea-and-impute" class="level2">
-<h2 class="anchored" data-anchor-id="lea-and-impute">LEA and <code>impute()</code></h2>
+<section id="lea-and-impute" class="level3">
+<h3 class="anchored" data-anchor-id="lea-and-impute">LEA and <code>impute()</code></h3>
 <p>We will be using the impute() function in the LEA package to impute our missing genotypes with the output of an snmf object (.lfmm file). The function takes the following arguments: <code>impute (object, input.file, method, K, run)</code>. See more details <a href="https://rdrr.io/bioc/LEA/man/impute.html">here</a>. The imputation works by using ancestry and genotype frequency estimates from an snmf run and using the mode for each genotype within the assigned ancestral group. the method of imputation is either set to mode or random. With “random”, imputation is performed by using the genotype probabilities. With “mode”, the most likely genotype is used for matrix completion. Since LEA is imputing using a K = n specified number of ancestral groups, it can potentially introduce structure into the dataset. If you are concerned about this potential introduction of structure, compare Fst values pre- and post- imputation (using a complete set of filtered SNPs for the ‘pre-imputation’ SNP set).</p>
 </section>
-<section id="full-vs-thinned-snp-sets" class="level2">
-<h2 class="anchored" data-anchor-id="full-vs-thinned-snp-sets">Full vs thinned SNP sets</h2>
+<section id="full-vs-thinned-snp-sets" class="level3">
+<h3 class="anchored" data-anchor-id="full-vs-thinned-snp-sets">Full vs thinned SNP sets</h3>
 <p>It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses. Your full SNP set will be all SNPs that are retained after filtering for missingness and MAF and imputed. Your thinned SNP set will be a subsetted version of the full SNP set that removes SNPs in LD. Generally, you want to use a full SNP set for detecing selection and functional loci detection (e.g.&nbsp;gene ontology), and use a thinned SNP set for population structure (e.g.&nbsp;PCA, ancestry/structure).</p>
 </section>
-<section id="general-imputation-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="general-imputation-workflow">General imputation workflow</h2>
+<section id="general-imputation-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="general-imputation-workflow">General imputation workflow</h3>
 <ol type="1">
 <li>Transfer your data into a genotype matrix format. We have developed code for extracting genotype values from a VCF using the <code>extract.gt()</code> function (see <a href="https://drk-lo.github.io/lotterhoslabprotocols/code_imputation.html#preparing-your-snp-matrix">Preparing SNP matrix</a> section below).<br>
 </li>
@@ -269,12 +269,12 @@ ul.task-list li input[type="checkbox"] {
 <li>THIS STEP PRODUCES YOUR THINNED SNP DATASET</li>
 </ol>
 </section>
-<section id="step-1-preparing-your-snp-matrix" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-preparing-your-snp-matrix">Step 1: Preparing your SNP matrix</h2>
+<section id="step-1-preparing-your-snp-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-preparing-your-snp-matrix">Step 1: Preparing your SNP matrix</h3>
 <p>To prepare to use the <code>impute()</code> function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you’re starting with a VCF file of genotypes from the sequencing facility, use the <code>extract.gt()</code> function to extract the genotype values into a data frame from the VCF. For an example on how to do this, ask for access to the <code>genotypes_experimental.R</code> script that was used for the Cvi MVP H2F project.</p>
 </section>
-<section id="step-2-filter-for-missing-data" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-filter-for-missing-data">Step 2: Filter for missing data</h2>
+<section id="step-2-filter-for-missing-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-filter-for-missing-data">Step 2: Filter for missing data</h3>
 <p>The threshold of missing data can change depending on your dataset. For our Cvi MVP samples, we decided to use a 10% missingness threshold (e.g.&nbsp;any individual or loci that has more than 10% missing data across the entire data set will be removed). Here in this example, our SNP matrix is called <code>exp_ordered</code> and contains sequenced individuals in rows, SNPs in columns. We detect 2.9k SNPs that are above the threshold of 0.10 and remove them, producing a reduced data frame called <code>exp_cleaned_columns</code>. The same is repeated with the rows, but no individuals are detected that exceed the missingness threshold (yay, good data!). We also have a separate mutations dataframe that stores some functional annotations of the SNPs, so I also subset that <code>muts_filtered</code> to produce an equal number of retained SNPs as my genotype matrix.</p>
 <pre><code># look at where our data is missing in rows
 hist_rows &lt;- rowSums(is.na(exp_ordered))
@@ -298,8 +298,8 @@ inds_missing &lt;- which(ind_missing_prop &gt; missing_threshold) # length 0, al
 muts_filtered &lt;- muts[snp_missing_prop &lt;= missing_threshold, ]
 dim(muts_filtered) #191994 SNPs</code></pre>
 </section>
-<section id="step-3-filter-for-maf" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-filter-for-maf">Step 3: Filter for MAF</h2>
+<section id="step-3-filter-for-maf" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-filter-for-maf">Step 3: Filter for MAF</h3>
 <p>This step shows how to filter for MAF. Our genotype matrix <code>exp_cleaned_columns_sort</code> has been filtered for missingness and now sorted to have the rows and columns in the exact same order as our mutation matrix and individual matrix. We use a custom function to calculate the allele frequency (af) within each column, and then apply that custom function to each column in the genotype matrix. The <code>maf_threshold</code> can be set to whatever threshold you’d like for your data, here we use 0.05, meaning SNPs that appear in less than 5% of individuals are filtered out. These are “minor alleles” and because of their rarity across the dataset, could bias population estimates. Once we complete this filtering, we are left with n = 154k SNPs, and this will be the dataset that we impute.</p>
 <pre><code># The geno matrix has individuals in rows and mutations in columns, with a 0, 1, or 2 entered for the number of alternate alleles in the diploid
 
@@ -328,8 +328,8 @@ muts_maf_filtered &lt;- muts_filt_ord[muts_filt_ord$Affx.ID %in% keep_snps, ]
 dim(muts_maf_filtered) #154609 SNPs
 saveRDS(muts_maf_filtered, file = "merged_data/genotypes/20250203_FULLmuts_exp.rds")</code></pre>
 </section>
-<section id="step-4-imputing-and-producing-the-full-snp-set" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-imputing-and-producing-the-full-snp-set">Step 4: Imputing and producing the full SNP set</h2>
+<section id="step-4-imputing-and-producing-the-full-snp-set" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-imputing-and-producing-the-full-snp-set">Step 4: Imputing and producing the full SNP set</h3>
 <p>Here we have our filtered SNP matrix called <code>GEN_filtered</code>. This matrix has been filtered for MAF and missingness and contains 154k SNPs. In this example, we impute for a value of K = 2.</p>
 <pre><code># Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
@@ -345,8 +345,8 @@ impute(exp.project.snmf, "merged_data/genotypes/20250203_genotypes_exp.lfmm", me
 GEN_imputed &lt;- as.data.frame(read.table("merged_data/genotypes/20250203_genotypes_exp.lfmm_imputed.lfmm", header = FALSE))
 saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set</code></pre>
 </section>
-<section id="step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set</h2>
+<section id="step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set</h3>
 <p>Here, we read in the thinned SNP set and use the <code>bigsnpr</code> and <code>bigstatsr</code> packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of <code>thr.r2 = 0.2</code>, but this can be explored for your data.</p>
 <pre><code>GEN_imputed &lt;- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
 gen_impute &lt;- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
@@ -369,13 +369,15 @@ thinned_snps &lt;- attr(pca_inv, which="subset") # SNPs n=104958, this step outp
 gen_filtered_subset &lt;- GEN_imputed[, thinned_snps] # subset the full imputed dataset by the thinned SNP positions
 saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THINNEDSNPs_exp.rds")</code></pre>
 </section>
-<section id="other-imputation-methods" class="level2">
-<h2 class="anchored" data-anchor-id="other-imputation-methods">Other imputation methods</h2>
+<section id="other-imputation-methods" class="level3">
+<h3 class="anchored" data-anchor-id="other-imputation-methods">Other imputation methods</h3>
 <p>I’ve tried several different imputation methods before deciding on using LEA. Since the rest of the scripting was done in R for the Cvi MVP project, we elected to use LEA for ease of use. However, other imputation methods, such as BEAGLE, snpStats, and bigsnpr are also often used in pop gen studies. I was unsuccessful with getting bigsnpr to work on our data, but it did sound promising. Here are my notes:</p>
 <p><a href="https://privefl.github.io/bigsnpr/reference/snp_fastImputeSimple.html">bigsnpr</a> is good for large datasets and will already work with the genotype matrix in its current format. This method will reduce chances of introducing structure because it compares each individual with missing SNPs to a generated “reference panel” based on the input data. It will automatically compute a reference panel based on the input genotype matrix, then each individual will be imputed based on the comparison to the reference panel. I assume it is averages across all inds in the dataset (“mean” type of approach) although you can specify method as well (mode, mean0, mean2, or random). It will output a new imputed genotype matrix in a .rds file format.</p>
 </section>
-<section id="environmental-data" class="level2">
-<h2 class="anchored" data-anchor-id="environmental-data">Environmental Data</h2>
+</section>
+</section>
+<section id="environmental-data" class="level1">
+<h1>Environmental Data</h1>
 <p>Coming soon!</p>
 
 
