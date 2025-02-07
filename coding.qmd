@@ -75,7 +75,7 @@ To prepare to use the `impute()` function, you should arrage your SNP data in a 
 ## Step 2: Filter for missing data
 The threshold of missing data can change depending on your dataset. For our Cvi MVP samples, we decided to use a 10% missingness threshold (e.g. any individual or loci that has more than 10% missing data across the entire data set will be removed). Here in this example, our SNP matrix is called `exp_ordered` and contains sequenced individuals in rows, SNPs in columns. We detect 2.9k SNPs that are above the threshold of 0.10 and remove them, producing a reduced data frame called `exp_cleaned_columns`. The same is repeated with the rows, but no individuals are detected that exceed the missingness threshold (yay, good data!). We also have a separate mutations dataframe that stores some functional annotations of the SNPs, so I also subset that `muts_filtered` to produce an equal number of retained SNPs as my genotype matrix. 
 
-```{r}
+```
 # look at where our data is missing in rows
 hist_rows <- rowSums(is.na(exp_ordered))
 hist(hist_rows)
@@ -102,7 +102,7 @@ dim(muts_filtered) #191994 SNPs
 ## Step 3: Filter for MAF
 This step shows how to filter for MAF. Our genotype matrix `exp_cleaned_columns_sort` has been filtered for missingness and now sorted to have the rows and columns in the exact same order as our mutation matrix and individual matrix. We use a custom function to calculate the allele frequency (af) within each column, and then apply that custom function to each column in the genotype matrix. The `maf_threshold` can be set to whatever threshold you'd like for your data, here we use 0.05, meaning SNPs that appear in less than 5% of individuals are filtered out. These are "minor alleles" and because of their rarity across the dataset, could bias population estimates. Once we complete this filtering, we are left with n = 154k SNPs, and this will be the dataset that we impute. 
 
-```{r}
+```
 # The geno matrix has individuals in rows and mutations in columns, with a 0, 1, or 2 entered for the number of alternate alleles in the diploid
 
 GEN <- exp_cleaned_columns_sort
@@ -134,7 +134,7 @@ saveRDS(muts_maf_filtered, file = "merged_data/genotypes/20250203_FULLmuts_exp.r
 ## Step 4: Imputing and producing the full SNP set
 Here we have our filtered SNP matrix called `GEN_filtered`. This matrix has been filtered for MAF and missingness and contains 154k SNPs. In this example, we impute for a value of K = 2.
 
-```{r}
+```
 # Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
 write.lfmm(GEN_filtered, "merged_data/genotypes/20250203_genotypes_exp.lfmm")
@@ -153,7 +153,7 @@ saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") #
 ## Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set 
 Here, we read in the thinned SNP set and use the `bigsnpr` and `bigstatsr` packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of `thr.r2 = 0.2`, but this can be explored for your data.  
 
-```{r}
+```
 GEN_imputed <- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
 gen_impute <- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
 
